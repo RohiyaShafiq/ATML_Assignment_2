@@ -1,0 +1,15 @@
+ok test_lora_zero_init_equals_base
+ok test_same_init_for_lora16_and_oplora
+ok test_oplora_constraints_and_merge_equivalence
+ok test_plain_lora_merge_equivalence
+ok test_loss_masks_prompt_and_padding
+
+
+===== [2026-10-28 13:21:03] session 20261028-132058 | tests | attempt 1 =====
+ok test_lora_zero_init_equals_base
+ok test_same_init_for_lora16_and_oplora
+ok test_oplora_constraints_and_merge_equivalence
+ok test_plain_lora_merge_equivalence
+ok test_loss_masks_prompt_and_padding
+
+===== [2026-10-28 13:21:25] exit code 0 =====

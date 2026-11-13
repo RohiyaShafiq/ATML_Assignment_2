@@ -1,0 +1,16 @@
+
+
+===== [2026-10-29 13:25:53] session 20261029-104307 | merge_check | attempt 1 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<09:26,  1.83s/it]Loading weights:  93%|█████████▎| 290/311 [00:01<00:00, 206.99it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 153.33it/s]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:26,  2.11it/s]Loading weights:  20%|█▉        | 61/311 [00:00<00:01, 140.18it/s]Loading weights:  48%|████▊     | 148/311 [00:00<00:00, 314.92it/s]Loading weights:  79%|███████▉  | 246/311 [00:00<00:00, 486.39it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 362.32it/s]
+{'method': 'lora4', 'max_abs_diff': 0.000148773193359375, 'mean_abs_diff': 7.40786981623387e-06, 'top1_agreement': 1.0, 'passed': True}
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:16,  2.27it/s]Loading weights:  30%|██▉       | 93/311 [00:00<00:00, 223.34it/s]Loading weights:  62%|██████▏   | 192/311 [00:00<00:00, 404.13it/s]Loading weights:  92%|█████████▏| 287/311 [00:00<00:00, 543.06it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 390.72it/s]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:19,  2.23it/s]Loading weights:  34%|███▍      | 105/311 [00:00<00:00, 248.44it/s]Loading weights:  62%|██████▏   | 192/311 [00:00<00:00, 402.31it/s]Loading weights:  92%|█████████▏| 285/311 [00:00<00:00, 541.53it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 396.38it/s]
+{'method': 'lora16', 'max_abs_diff': 0.00010466575622558594, 'mean_abs_diff': 7.0028963818913326e-06, 'top1_agreement': 1.0, 'passed': True}
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:53,  1.79it/s]Loading weights:  18%|█▊        | 56/311 [00:00<00:02, 112.92it/s]Loading weights:  48%|████▊     | 149/311 [00:00<00:00, 291.50it/s]Loading weights:  72%|███████▏  | 225/311 [00:00<00:00, 402.31it/s]Loading weights:  93%|█████████▎| 289/311 [00:01<00:00, 402.64it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 281.92it/s]
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:24,  2.14it/s]Loading weights:  32%|███▏      | 100/311 [00:00<00:00, 233.31it/s]Loading weights:  68%|██████▊   | 213/311 [00:00<00:00, 457.91it/s]Loading weights:  97%|█████████▋| 301/311 [00:00<00:00, 559.53it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 393.17it/s]
+{'method': 'oplora', 'max_abs_diff': 0.00012302398681640625, 'mean_abs_diff': 7.0785890784463845e-06, 'top1_agreement': 1.0, 'passed': True}
+
+===== [2026-10-29 13:26:31] exit code 0 =====

@@ -1,0 +1,205 @@
+=== train fullft Wed Oct 28 06:06:10 AM UTC 2026
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:58,  1.74it/s]Loading weights:   1%|          | 2/311 [00:00<01:43,  2.99it/s]Loading weights:  16%|█▌        | 49/311 [00:00<00:02, 94.39it/s]Loading weights:  24%|██▍       | 76/311 [00:00<00:01, 132.44it/s]Loading weights:  32%|███▏      | 99/311 [00:01<00:01, 154.69it/s]Loading weights:  39%|███▉      | 122/311 [00:01<00:01, 163.00it/s]Loading weights:  48%|████▊     | 149/311 [00:01<00:00, 186.29it/s]Loading weights:  57%|█████▋    | 177/311 [00:01<00:00, 207.56it/s]Loading weights:  65%|██████▍   | 202/311 [00:01<00:00, 217.80it/s]Loading weights:  73%|███████▎  | 226/311 [00:01<00:00, 219.90it/s]Loading weights:  82%|████████▏ | 254/311 [00:01<00:00, 231.16it/s]Loading weights:  90%|████████▉ | 279/311 [00:01<00:00, 224.55it/s]Loading weights:  97%|█████████▋| 303/311 [00:01<00:00, 209.83it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 157.25it/s]
+[fullft] trainable=596,049,920 total=596,049,920 device=cuda
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/train.py", line 229, in main
+    scaler.step(opt); scaler.update()
+    ~~~~~~~~~~~^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/amp/grad_scaler.py", line 478, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/amp/grad_scaler.py", line 372, in _maybe_opt_step
+    retval = optimizer.step(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/optim/lr_scheduler.py", line 166, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/optim/optimizer.py", line 533, in wrapper
+    out = func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/optim/optimizer.py", line 81, in _use_grad
+    ret = func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/torch/optim/adam.py", line 238, in step
+    has_complex = self._init_group(
+        group,
+    ...<5 lines>...
+        state_steps,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/torch/optim/adam.py", line 182, in _init_group
+    state["exp_avg_sq"] = torch.zeros_like(
+                          ~~~~~~~~~~~~~~~~^
+        p, memory_format=torch.preserve_format
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 17.81 MiB is free. Process 4133 has 7.16 GiB memory in use. Including non-PyTorch memory, this process has 7.38 GiB memory in use. Of the allocated memory 7.15 GiB is allocated by PyTorch, and 104.71 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+=== eval fullft_mid Wed Oct 28 06:06:48 AM UTC 2026
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/fullft/ckpt_update_0625/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 125, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 100, in main
+    model_dir = materialize(a.condition)
+  File "/content/drive/MyDrive/task1/src/merge.py", line 38, in materialize
+    model = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step, runs_root) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 308, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/fullft/ckpt_update_0625/model'. Use `repo_type` argument if needed.
+=== eval fullft_final Wed Oct 28 06:07:04 AM UTC 2026
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/fullft/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 125, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 100, in main
+    model_dir = materialize(a.condition)
+  File "/content/drive/MyDrive/task1/src/merge.py", line 38, in materialize
+    model = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step, runs_root) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 308, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/fullft/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+=== train l2sp Wed Oct 28 06:07:16 AM UTC 2026
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<03:16,  1.58it/s]Loading weights:  19%|█▉        | 59/311 [00:00<00:02, 107.41it/s]Loading weights:  30%|██▉       | 93/311 [00:00<00:01, 153.79it/s]Loading weights:  41%|████      | 126/311 [00:00<00:00, 188.98it/s]Loading weights:  51%|█████     | 159/311 [00:01<00:00, 216.43it/s]Loading weights:  62%|██████▏   | 193/311 [00:01<00:00, 241.84it/s]Loading weights:  72%|███████▏  | 224/311 [00:01<00:00, 255.70it/s]Loading weights:  82%|████████▏ | 255/311 [00:01<00:00, 258.21it/s]Loading weights:  92%|█████████▏| 285/311 [00:01<00:00, 258.99it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 194.85it/s]
+[l2sp] trainable=596,049,920 total=596,049,920 device=cuda
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/train.py", line 214, in main
+    scaler.scale(ce / n_tok).backward()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/autograd/__init__.py", line 381, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/autograd/graph.py", line 869, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 339.81 MiB is free. Process 4133 has 7.16 GiB memory in use. Including non-PyTorch memory, this process has 7.07 GiB memory in use. Of the allocated memory 6.80 GiB is allocated by PyTorch, and 139.96 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+=== eval l2sp_final Wed Oct 28 06:07:37 AM UTC 2026
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 125, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/evaluate.py", line 100, in main
+    model_dir = materialize(a.condition)
+  File "/content/drive/MyDrive/task1/src/merge.py", line 38, in materialize
+    model = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step, runs_root) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 308, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+ALL_DONE_FULL

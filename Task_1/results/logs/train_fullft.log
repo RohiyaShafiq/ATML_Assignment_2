@@ -1,0 +1,144 @@
+
+
+===== [2026-10-31 01:48:59] session 20261031-014852 | train fullft | attempt 1 | FRESH start =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:48,  2.87it/s]Loading weights:   1%|          | 2/311 [00:00<01:23,  3.69it/s]Loading weights:  72%|███████▏  | 224/311 [00:00<00:00, 526.75it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 388.81it/s]
+[fullft] trainable=596,049,920 total=596,049,920 device=cuda
+[fullft] upd 1/1250 loss 1.0284 lr 5.26e-07 gn 33.28
+[fullft] upd 10/1250 loss 0.3269 lr 5.26e-06 gn 3.86
+[fullft] upd 20/1250 loss 0.3018 lr 1.05e-05 gn 2.95
+[fullft] upd 30/1250 loss 0.2622 lr 1.58e-05 gn 2.27
+[fullft] upd 40/1250 loss 0.2766 lr 2.00e-05 gn 2.33
+[fullft] upd 50/1250 loss 0.2428 lr 2.00e-05 gn 2.04
+[fullft] upd 60/1250 loss 0.2596 lr 2.00e-05 gn 2.17
+[fullft] upd 70/1250 loss 0.2765 lr 2.00e-05 gn 2.33
+[fullft] upd 80/1250 loss 0.2593 lr 1.99e-05 gn 2.12
+[fullft] upd 90/1250 loss 0.2488 lr 1.99e-05 gn 2.00
+[fullft] upd 100/1250 loss 0.2600 lr 1.99e-05 gn 2.00
+[fullft] upd 110/1250 loss 0.2630 lr 1.98e-05 gn 2.15
+[fullft] upd 120/1250 loss 0.2314 lr 1.98e-05 gn 1.95
+[fullft] upd 130/1250 loss 0.2408 lr 1.97e-05 gn 1.96
+[fullft] upd 140/1250 loss 0.2455 lr 1.97e-05 gn 2.16
+[fullft] upd 150/1250 loss 0.2403 lr 1.96e-05 gn 1.92
+[fullft] upd 160/1250 loss 0.2312 lr 1.95e-05 gn 1.99
+[fullft] upd 170/1250 loss 0.2689 lr 1.94e-05 gn 1.95
+[fullft] upd 180/1250 loss 0.2590 lr 1.93e-05 gn 2.19
+[fullft] upd 190/1250 loss 0.2349 lr 1.92e-05 gn 2.14
+[fullft] upd 200/1250 loss 0.2156 lr 1.91e-05 gn 1.92
+[fullft] upd 210/1250 loss 0.2581 lr 1.90e-05 gn 2.02
+[fullft] upd 220/1250 loss 0.2509 lr 1.89e-05 gn 1.96
+[fullft] upd 230/1250 loss 0.1998 lr 1.88e-05 gn 1.69
+[fullft] upd 240/1250 loss 0.2674 lr 1.87e-05 gn 1.98
+[fullft] upd 250/1250 loss 0.2572 lr 1.85e-05 gn 2.04
+[fullft] upd 260/1250 loss 0.2001 lr 1.84e-05 gn 1.66
+[fullft] upd 270/1250 loss 0.2383 lr 1.83e-05 gn 1.87
+[fullft] upd 280/1250 loss 0.2032 lr 1.81e-05 gn 1.55
+[fullft] upd 290/1250 loss 0.2878 lr 1.80e-05 gn 2.11
+[fullft] upd 300/1250 loss 0.2228 lr 1.78e-05 gn 1.93
+[fullft] upd 310/1250 loss 0.2557 lr 1.76e-05 gn 1.89
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.96s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.96s/it]
+[fullft] checkpoint 312: {'update': 312, 'examples_seen': 9984, 'displacement_l2': 7.614580026223137, 'model_dir_bytes': 2384236599, 'trainer_state_bytes': 4768683107, 'save_time_s': 20.227439165115356}
+[fullft] upd 320/1250 loss 0.1858 lr 1.75e-05 gn 1.48
+[fullft] upd 330/1250 loss 0.2185 lr 1.73e-05 gn 1.86
+[fullft] upd 340/1250 loss 0.2180 lr 1.71e-05 gn 1.86
+[fullft] upd 350/1250 loss 0.2402 lr 1.69e-05 gn 1.83
+[fullft] upd 360/1250 loss 0.2466 lr 1.67e-05 gn 1.78
+[fullft] upd 370/1250 loss 0.2521 lr 1.65e-05 gn 1.95
+[fullft] upd 380/1250 loss 0.2153 lr 1.63e-05 gn 1.85
+[fullft] upd 390/1250 loss 0.2046 lr 1.61e-05 gn 1.80
+[fullft] upd 400/1250 loss 0.2110 lr 1.59e-05 gn 1.74
+[fullft] upd 410/1250 loss 0.2207 lr 1.57e-05 gn 1.76
+[fullft] upd 420/1250 loss 0.2569 lr 1.55e-05 gn 1.98
+[fullft] upd 430/1250 loss 0.2114 lr 1.53e-05 gn 1.79
+[fullft] upd 440/1250 loss 0.2049 lr 1.51e-05 gn 1.84
+[fullft] upd 450/1250 loss 0.2287 lr 1.48e-05 gn 1.81
+[fullft] upd 460/1250 loss 0.2306 lr 1.46e-05 gn 1.64
+[fullft] upd 470/1250 loss 0.2132 lr 1.44e-05 gn 1.67
+[fullft] upd 480/1250 loss 0.2214 lr 1.41e-05 gn 1.71
+[fullft] upd 490/1250 loss 0.1680 lr 1.39e-05 gn 1.46
+[fullft] upd 500/1250 loss 0.2114 lr 1.37e-05 gn 1.61
+[fullft] upd 510/1250 loss 0.2265 lr 1.34e-05 gn 1.73
+[fullft] upd 520/1250 loss 0.1947 lr 1.32e-05 gn 1.56
+[fullft] upd 530/1250 loss 0.2019 lr 1.29e-05 gn 1.69
+[fullft] upd 540/1250 loss 0.2304 lr 1.27e-05 gn 1.86
+[fullft] upd 550/1250 loss 0.2081 lr 1.24e-05 gn 1.81
+[fullft] upd 560/1250 loss 0.2211 lr 1.22e-05 gn 1.71
+[fullft] upd 570/1250 loss 0.2001 lr 1.19e-05 gn 1.61
+[fullft] upd 580/1250 loss 0.1958 lr 1.17e-05 gn 1.50
+[fullft] upd 590/1250 loss 0.2162 lr 1.14e-05 gn 1.65
+[fullft] upd 600/1250 loss 0.1969 lr 1.12e-05 gn 1.56
+[fullft] upd 610/1250 loss 0.1769 lr 1.09e-05 gn 1.70
+[fullft] upd 620/1250 loss 0.2524 lr 1.06e-05 gn 1.86
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.64s/it]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.64s/it]
+[fullft] checkpoint 625: {'update': 625, 'examples_seen': 20000, 'displacement_l2': 10.002991028130323, 'model_dir_bytes': 2384236599, 'trainer_state_bytes': 4768683299, 'save_time_s': 24.961740732192993}
+[fullft] upd 630/1250 loss 0.1826 lr 1.04e-05 gn 1.56
+[fullft] upd 640/1250 loss 0.1974 lr 1.01e-05 gn 1.82
+[fullft] upd 650/1250 loss 0.1720 lr 9.87e-06 gn 1.57
+[fullft] upd 660/1250 loss 0.2160 lr 9.61e-06 gn 1.60
+[fullft] upd 670/1250 loss 0.1915 lr 9.35e-06 gn 1.53
+[fullft] upd 680/1250 loss 0.1981 lr 9.09e-06 gn 1.85
+[fullft] upd 690/1250 loss 0.2210 lr 8.84e-06 gn 1.89
+[fullft] upd 700/1250 loss 0.2012 lr 8.58e-06 gn 1.58
+[fullft] upd 710/1250 loss 0.1888 lr 8.32e-06 gn 1.76
+[fullft] upd 720/1250 loss 0.2098 lr 8.07e-06 gn 1.72
+[fullft] upd 730/1250 loss 0.1997 lr 7.81e-06 gn 1.59
+[fullft] upd 740/1250 loss 0.1999 lr 7.56e-06 gn 1.57
+[fullft] upd 750/1250 loss 0.1525 lr 7.31e-06 gn 1.40
+[fullft] upd 760/1250 loss 0.2282 lr 7.06e-06 gn 1.76
+[fullft] upd 770/1250 loss 0.1805 lr 6.82e-06 gn 1.57
+[fullft] upd 780/1250 loss 0.1955 lr 6.57e-06 gn 1.58
+[fullft] upd 790/1250 loss 0.1708 lr 6.33e-06 gn 1.82
+[fullft] upd 800/1250 loss 0.1717 lr 6.09e-06 gn 1.48
+[fullft] upd 810/1250 loss 0.2276 lr 5.85e-06 gn 1.88
+[fullft] upd 820/1250 loss 0.1741 lr 5.62e-06 gn 1.67
+[fullft] upd 830/1250 loss 0.1629 lr 5.39e-06 gn 1.37
+[fullft] upd 840/1250 loss 0.2060 lr 5.16e-06 gn 1.74
+[fullft] upd 850/1250 loss 0.1948 lr 4.93e-06 gn 1.55
+[fullft] upd 860/1250 loss 0.1561 lr 4.71e-06 gn 1.43
+[fullft] upd 870/1250 loss 0.1574 lr 4.49e-06 gn 1.52
+[fullft] upd 880/1250 loss 0.1645 lr 4.28e-06 gn 1.41
+[fullft] upd 890/1250 loss 0.1850 lr 4.07e-06 gn 1.57
+[fullft] upd 900/1250 loss 0.1685 lr 3.86e-06 gn 1.47
+[fullft] upd 910/1250 loss 0.1532 lr 3.66e-06 gn 1.47
+[fullft] upd 920/1250 loss 0.2046 lr 3.46e-06 gn 1.67
+[fullft] upd 930/1250 loss 0.1591 lr 3.27e-06 gn 1.37
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.99s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.99s/it]
+[fullft] checkpoint 937: {'update': 937, 'examples_seen': 29984, 'displacement_l2': 10.587835639877579, 'model_dir_bytes': 2384236599, 'trainer_state_bytes': 4768683427, 'save_time_s': 18.89704203605652}
+[fullft] upd 940/1250 loss 0.1767 lr 3.08e-06 gn 1.37
+[fullft] upd 950/1250 loss 0.1900 lr 2.89e-06 gn 1.79
+[fullft] upd 960/1250 loss 0.1586 lr 2.71e-06 gn 1.46
+[fullft] upd 970/1250 loss 0.2105 lr 2.54e-06 gn 1.69
+[fullft] upd 980/1250 loss 0.1868 lr 2.37e-06 gn 1.58
+[fullft] upd 990/1250 loss 0.1751 lr 2.20e-06 gn 1.55
+[fullft] upd 1000/1250 loss 0.2103 lr 2.04e-06 gn 1.63
+[fullft] upd 1010/1250 loss 0.1905 lr 1.89e-06 gn 1.64
+[fullft] upd 1020/1250 loss 0.1493 lr 1.74e-06 gn 1.41
+[fullft] upd 1030/1250 loss 0.2040 lr 1.60e-06 gn 1.72
+[fullft] upd 1040/1250 loss 0.1873 lr 1.46e-06 gn 1.61
+[fullft] upd 1050/1250 loss 0.2140 lr 1.33e-06 gn 1.84
+[fullft] upd 1060/1250 loss 0.1554 lr 1.20e-06 gn 1.36
+[fullft] upd 1070/1250 loss 0.2240 lr 1.08e-06 gn 1.85
+[fullft] upd 1080/1250 loss 0.1628 lr 9.66e-07 gn 1.40
+[fullft] upd 1090/1250 loss 0.1880 lr 8.58e-07 gn 1.64
+[fullft] upd 1100/1250 loss 0.1941 lr 7.56e-07 gn 1.73
+[fullft] upd 1110/1250 loss 0.1623 lr 6.60e-07 gn 1.53
+[fullft] upd 1120/1250 loss 0.1607 lr 5.71e-07 gn 1.42
+[fullft] upd 1130/1250 loss 0.1638 lr 4.88e-07 gn 1.47
+[fullft] upd 1140/1250 loss 0.1866 lr 4.11e-07 gn 1.44
+[fullft] upd 1150/1250 loss 0.1625 lr 3.41e-07 gn 1.53
+[fullft] upd 1160/1250 loss 0.2089 lr 2.77e-07 gn 1.56
+[fullft] upd 1170/1250 loss 0.1494 lr 2.20e-07 gn 1.44
+[fullft] upd 1180/1250 loss 0.1742 lr 1.69e-07 gn 1.61
+[fullft] upd 1190/1250 loss 0.2184 lr 1.25e-07 gn 1.55
+[fullft] upd 1200/1250 loss 0.1668 lr 8.73e-08 gn 1.59
+[fullft] upd 1210/1250 loss 0.1528 lr 5.64e-08 gn 1.46
+[fullft] upd 1220/1250 loss 0.1703 lr 3.23e-08 gn 1.57
+[fullft] upd 1230/1250 loss 0.1784 lr 1.48e-08 gn 1.43
+[fullft] upd 1240/1250 loss 0.2048 lr 4.06e-09 gn 1.60
+[fullft] upd 1250/1250 loss 0.1659 lr 3.36e-11 gn 1.57
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.18s/it]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.18s/it]
+[fullft] checkpoint 1250: {'update': 1250, 'examples_seen': 40000, 'displacement_l2': 10.640877701748757, 'model_dir_bytes': 2384236599, 'trainer_state_bytes': 4768683491, 'save_time_s': 24.01086974143982}
+done: {'method': 'fullft', 'label': 'Full FT', 'lr': 2e-05, 'l2sp_lambda': 0.0, 'trainable_params': 596049920, 'total_params_in_model': 596049920, 'train_time_s': 13810.271611213684, 'updates_done': 1250, 'skipped_updates': 0, 'peak_gpu_mem_allocated_bytes': 14041354240, 'peak_gpu_mem_reserved_bytes': 15210643456, 'overhead': {'ref_storage_bytes': 2384199680, 'ref_on': 'cpu'}, 'device': 'cuda', 'amp_fp16': True}
+
+===== [2026-10-31 05:41:31] exit code 0 =====

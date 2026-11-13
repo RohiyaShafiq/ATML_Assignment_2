@@ -1,0 +1,441 @@
+
+
+===== [2026-10-31 15:46:28] session 20261031-154622 | diagnostics | attempt 1 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<04:30,  1.15it/s]Loading weights:   1%|          | 2/311 [00:00<02:12,  2.33it/s]Loading weights:  10%|█         | 32/311 [00:01<00:05, 50.77it/s]Loading weights:  16%|█▌        | 49/311 [00:01<00:03, 72.86it/s]Loading weights:  22%|██▏       | 67/311 [00:01<00:02, 90.34it/s]Loading weights:  30%|██▉       | 92/311 [00:01<00:01, 123.45it/s]Loading weights:  37%|███▋      | 116/311 [00:01<00:01, 148.50it/s]Loading weights:  44%|████▎     | 136/311 [00:01<00:01, 155.21it/s]Loading weights:  50%|████▉     | 155/311 [00:01<00:00, 160.35it/s]Loading weights:  56%|█████▋    | 175/311 [00:01<00:00, 168.10it/s]Loading weights:  62%|██████▏   | 194/311 [00:02<00:00, 158.96it/s]Loading weights:  68%|██████▊   | 213/311 [00:02<00:00, 157.34it/s]Loading weights:  76%|███████▌  | 235/311 [00:02<00:00, 163.80it/s]Loading weights:  81%|████████  | 252/311 [00:02<00:00, 161.61it/s]Loading weights:  87%|████████▋ | 270/311 [00:02<00:00, 155.28it/s]Loading weights:  93%|█████████▎| 290/311 [00:02<00:00, 159.97it/s]Loading weights:  99%|█████████▊| 307/311 [00:02<00:00, 146.42it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 112.50it/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 147153.71 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 224542.86 examples/s]
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]Generating train split:  33%|███▎      | 13000/39905 [00:00<00:00, 118392.35 examples/s]Generating train split:  75%|███████▌  | 30000/39905 [00:00<00:00, 106239.62 examples/s]Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 104089.35 examples/s]
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]Generating test split:  80%|███████▉  | 8000/10003 [00:00<00:00, 63106.05 examples/s]Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 75895.61 examples/s]
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]Generating validation split:  90%|████████▉ | 9000/10042 [00:00<00:00, 82846.45 examples/s]Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 89384.63 examples/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   4%|▍         | 13/310 [00:01<00:39,  7.61it/s]Loading weights:   5%|▍         | 14/310 [00:02<01:09,  4.26it/s]Loading weights:   7%|▋         | 22/310 [00:05<01:28,  3.25it/s]Loading weights:   8%|▊         | 26/310 [00:06<01:16,  3.70it/s]Loading weights:   9%|▉         | 28/310 [00:06<01:07,  4.20it/s]Loading weights:   9%|▉         | 29/310 [00:09<02:24,  1.95it/s]Loading weights:  10%|▉         | 30/310 [00:10<02:26,  1.91it/s]Loading weights:  13%|█▎        | 39/310 [00:10<01:04,  4.18it/s]Loading weights:  13%|█▎        | 40/310 [00:11<01:12,  3.73it/s]Loading weights:  13%|█▎        | 41/310 [00:11<01:10,  3.82it/s]Loading weights:  16%|█▋        | 51/310 [00:11<00:30,  8.52it/s]Loading weights:  17%|█▋        | 54/310 [00:12<00:43,  5.82it/s]Loading weights:  19%|█▉        | 60/310 [00:13<00:34,  7.20it/s]Loading weights:  20%|██        | 62/310 [00:13<00:36,  6.73it/s]Loading weights:  20%|██        | 63/310 [00:14<00:39,  6.23it/s]Loading weights:  21%|██        | 65/310 [00:14<00:39,  6.27it/s]Loading weights:  21%|██▏       | 66/310 [00:14<00:42,  5.69it/s]Loading weights:  23%|██▎       | 72/310 [00:14<00:24,  9.69it/s]Loading weights:  24%|██▍       | 74/310 [00:15<00:25,  9.33it/s]Loading weights:  25%|██▌       | 78/310 [00:17<01:06,  3.49it/s]Loading weights:  26%|██▌       | 81/310 [00:18<00:59,  3.87it/s]Loading weights:  29%|██▉       | 90/310 [00:18<00:31,  7.08it/s]Loading weights:  31%|███       | 95/310 [00:18<00:24,  8.94it/s]Loading weights:  31%|███▏      | 97/310 [00:18<00:22,  9.61it/s]Loading weights:  32%|███▏      | 99/310 [00:19<00:20, 10.48it/s]Loading weights:  33%|███▎      | 102/310 [00:19<00:23,  8.88it/s]Loading weights:  37%|███▋      | 114/310 [00:21<00:25,  7.74it/s]Loading weights:  37%|███▋      | 116/310 [00:22<00:33,  5.80it/s]Loading weights:  39%|███▉      | 122/310 [00:22<00:28,  6.62it/s]Loading weights:  40%|███▉      | 123/310 [00:23<00:34,  5.41it/s]Loading weights:  40%|████      | 125/310 [00:23<00:32,  5.73it/s]Loading weights:  41%|████      | 126/310 [00:23<00:35,  5.22it/s]Loading weights:  41%|████      | 127/310 [00:24<00:37,  4.87it/s]Loading weights:  41%|████▏     | 128/310 [00:24<00:39,  4.63it/s]Loading weights:  44%|████▍     | 136/310 [00:24<00:18,  9.57it/s]Loading weights:  44%|████▍     | 137/310 [00:24<00:18,  9.58it/s]Loading weights:  45%|████▍     | 138/310 [00:25<00:18,  9.46it/s]Loading weights:  45%|████▍     | 139/310 [00:25<00:21,  7.80it/s]Loading weights:  45%|████▌     | 140/310 [00:25<00:27,  6.15it/s]Loading weights:  45%|████▌     | 141/310 [00:25<00:28,  5.90it/s]Loading weights:  48%|████▊     | 150/310 [00:26<00:11, 14.51it/s]Loading weights:  49%|████▉     | 152/310 [00:27<00:22,  6.99it/s]Loading weights:  50%|█████     | 155/310 [00:27<00:24,  6.27it/s]Loading weights:  50%|█████     | 156/310 [00:28<00:33,  4.63it/s]Loading weights:  51%|█████▏    | 159/310 [00:30<00:52,  2.87it/s]Loading weights:  53%|█████▎    | 164/310 [00:30<00:35,  4.10it/s]Loading weights:  54%|█████▍    | 167/310 [00:32<00:45,  3.13it/s]Loading weights:  56%|█████▌    | 174/310 [00:33<00:32,  4.17it/s]Loading weights:  56%|█████▋    | 175/310 [00:33<00:33,  4.02it/s]Loading weights:  59%|█████▊    | 182/310 [00:34<00:24,  5.26it/s]Loading weights:  59%|█████▉    | 184/310 [00:34<00:23,  5.36it/s]Loading weights:  61%|██████    | 189/310 [00:35<00:16,  7.45it/s]Loading weights:  62%|██████▏   | 191/310 [00:35<00:18,  6.50it/s]Loading weights:  62%|██████▏   | 193/310 [00:36<00:21,  5.45it/s]Loading weights:  63%|██████▎   | 194/310 [00:36<00:27,  4.20it/s]Loading weights:  63%|██████▎   | 195/310 [00:37<00:29,  3.86it/s]Loading weights:  63%|██████▎   | 196/310 [00:37<00:28,  4.01it/s]Loading weights:  67%|██████▋   | 209/310 [00:39<00:16,  6.13it/s]Loading weights:  68%|██████▊   | 210/310 [00:39<00:19,  5.01it/s]Loading weights:  69%|██████▊   | 213/310 [00:40<00:18,  5.15it/s]Loading weights:  76%|███████▌  | 235/310 [00:42<00:08,  9.05it/s]Loading weights:  76%|███████▌  | 236/310 [00:43<00:11,  6.58it/s]Loading weights:  76%|███████▋  | 237/310 [00:43<00:10,  6.69it/s]Loading weights:  77%|███████▋  | 238/310 [00:43<00:13,  5.25it/s]Loading weights:  81%|████████  | 250/310 [00:44<00:07,  8.16it/s]Loading weights:  81%|████████  | 251/310 [00:45<00:08,  7.22it/s]Loading weights:  85%|████████▌ | 264/310 [00:45<00:03, 11.65it/s]Loading weights:  86%|████████▋ | 268/310 [00:45<00:03, 13.44it/s]Loading weights:  88%|████████▊ | 273/310 [00:45<00:02, 15.66it/s]Loading weights:  89%|████████▉ | 276/310 [00:46<00:02, 15.30it/s]Loading weights:  90%|████████▉ | 278/310 [00:46<00:02, 11.70it/s]Loading weights:  90%|█████████ | 280/310 [00:49<00:09,  3.08it/s]Loading weights:  93%|█████████▎| 287/310 [00:50<00:05,  4.54it/s]Loading weights:  94%|█████████▍| 291/310 [00:51<00:04,  4.61it/s]Loading weights:  94%|█████████▍| 292/310 [00:51<00:04,  4.15it/s]Loading weights:  96%|█████████▋| 299/310 [00:51<00:01,  6.42it/s]Loading weights:  98%|█████████▊| 304/310 [00:52<00:00,  7.98it/s]Loading weights: 100%|██████████| 310/310 [00:52<00:00,  5.93it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  64%|██████▍   | 199/310 [00:00<00:00, 1979.58it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1992.11it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 207/310 [00:00<00:00, 2037.66it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2140.58it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   9%|▉         | 29/310 [00:00<00:01, 278.68it/s]Loading weights:  22%|██▏       | 68/310 [00:00<00:00, 338.22it/s]Loading weights:  34%|███▍      | 105/310 [00:00<00:00, 343.95it/s]Loading weights:  47%|████▋     | 146/310 [00:00<00:00, 357.79it/s]Loading weights:  59%|█████▊    | 182/310 [00:00<00:00, 356.68it/s]Loading weights:  72%|███████▏  | 223/310 [00:00<00:00, 371.84it/s]Loading weights:  85%|████████▌ | 265/310 [00:00<00:00, 374.91it/s]Loading weights:  99%|█████████▉| 308/310 [00:00<00:00, 391.52it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 371.20it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 196/310 [00:00<00:00, 1946.13it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1949.57it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 208/310 [00:00<00:00, 2058.11it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2099.15it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-10-31 15:48:59] exit code 1 =====
+
+
+===== [2026-10-31 15:48:59] session 20261031-154622 | diagnostics | attempt 2 =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<09:29,  1.84s/it]Loading weights:  69%|██████▉   | 215/311 [00:01<00:00, 152.68it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 105.77it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 195/310 [00:00<00:00, 1949.32it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2018.47it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  66%|██████▋   | 206/310 [00:00<00:00, 2051.41it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2069.51it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 211/310 [00:00<00:00, 2063.66it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2174.66it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  69%|██████▉   | 215/310 [00:00<00:00, 2144.86it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2142.09it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  66%|██████▋   | 206/310 [00:00<00:00, 2050.87it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2092.12it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  70%|██████▉   | 216/310 [00:00<00:00, 2148.15it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2147.99it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-10-31 15:49:32] exit code 1 =====
+
+
+===== [2026-10-31 15:49:32] session 20261031-154622 | diagnostics | attempt 3 =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:21,  2.19it/s]Loading weights:  15%|█▌        | 48/311 [00:00<00:02, 112.82it/s]Loading weights:  30%|██▉       | 92/311 [00:00<00:01, 194.40it/s]Loading weights:  44%|████▎     | 136/311 [00:00<00:00, 256.12it/s]Loading weights:  58%|█████▊    | 181/311 [00:00<00:00, 307.76it/s]Loading weights:  72%|███████▏  | 224/311 [00:00<00:00, 339.56it/s]Loading weights:  85%|████████▌ | 265/311 [00:01<00:00, 349.31it/s]Loading weights:  98%|█████████▊| 305/311 [00:01<00:00, 324.91it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 250.84it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  59%|█████▊    | 182/310 [00:00<00:00, 1814.23it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1876.53it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 195/310 [00:00<00:00, 1949.89it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2009.37it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  66%|██████▌   | 204/310 [00:00<00:00, 2028.15it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2042.12it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 209/310 [00:00<00:00, 2066.65it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2111.13it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 210/310 [00:00<00:00, 2080.92it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2172.95it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 209/310 [00:00<00:00, 2079.08it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2098.58it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-10-31 15:50:00] exit code 1 =====
+
+
+===== [2026-11-01 16:25:08] session 20261101-162503 | diagnostics | attempt 1 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:16,  2.27it/s]Loading weights:  20%|█▉        | 61/311 [00:00<00:01, 148.35it/s]Loading weights:  36%|███▌      | 111/311 [00:00<00:00, 238.46it/s]Loading weights:  51%|█████     | 158/311 [00:00<00:00, 298.25it/s]Loading weights:  65%|██████▍   | 202/311 [00:00<00:00, 328.23it/s]Loading weights:  78%|███████▊  | 244/311 [00:00<00:00, 330.87it/s]Loading weights:  91%|█████████▏| 284/311 [00:01<00:00, 337.17it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 267.95it/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 190185.15 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 304256.01 examples/s]
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]Generating train split:  60%|██████    | 24000/39905 [00:00<00:00, 234647.47 examples/s]Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 228986.69 examples/s]
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 224548.94 examples/s]
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 221049.43 examples/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   1%|          | 3/310 [00:00<00:25, 12.01it/s]Loading weights:   2%|▏         | 5/310 [00:00<00:24, 12.24it/s]Loading weights:   5%|▌         | 17/310 [00:02<00:52,  5.59it/s]Loading weights:   6%|▌         | 19/310 [00:02<00:46,  6.28it/s]Loading weights:   7%|▋         | 22/310 [00:03<00:37,  7.76it/s]Loading weights:   9%|▉         | 29/310 [00:04<00:49,  5.64it/s]Loading weights:  10%|█         | 32/310 [00:05<00:52,  5.27it/s]Loading weights:  13%|█▎        | 40/310 [00:05<00:29,  9.07it/s]Loading weights:  14%|█▍        | 43/310 [00:06<00:32,  8.25it/s]Loading weights:  15%|█▍        | 46/310 [00:06<00:36,  7.27it/s]Loading weights:  15%|█▌        | 48/310 [00:07<00:43,  6.04it/s]Loading weights:  17%|█▋        | 53/310 [00:08<00:44,  5.78it/s]Loading weights:  17%|█▋        | 54/310 [00:08<00:46,  5.51it/s]Loading weights:  18%|█▊        | 56/310 [00:08<00:44,  5.68it/s]Loading weights:  19%|█▉        | 60/310 [00:09<00:34,  7.26it/s]Loading weights:  21%|██        | 65/310 [00:09<00:22, 11.13it/s]Loading weights:  23%|██▎       | 70/310 [00:09<00:18, 12.81it/s]Loading weights:  24%|██▎       | 73/310 [00:10<00:42,  5.60it/s]Loading weights:  26%|██▌       | 81/310 [00:11<00:23,  9.65it/s]Loading weights:  28%|██▊       | 87/310 [00:11<00:18, 12.27it/s]Loading weights:  29%|██▉       | 90/310 [00:11<00:16, 13.56it/s]Loading weights:  30%|███       | 93/310 [00:11<00:19, 11.28it/s]Loading weights:  31%|███▏      | 97/310 [00:12<00:16, 12.64it/s]Loading weights:  32%|███▏      | 99/310 [00:12<00:19, 10.93it/s]Loading weights:  34%|███▍      | 105/310 [00:13<00:26,  7.87it/s]Loading weights:  40%|███▉      | 123/310 [00:14<00:16, 11.67it/s]Loading weights:  40%|████      | 125/310 [00:15<00:19,  9.60it/s]Loading weights:  41%|████      | 127/310 [00:15<00:18,  9.65it/s]Loading weights:  42%|████▏     | 130/310 [00:15<00:17, 10.10it/s]Loading weights:  43%|████▎     | 132/310 [00:16<00:25,  6.89it/s]Loading weights:  43%|████▎     | 133/310 [00:17<00:37,  4.66it/s]Loading weights:  45%|████▍     | 138/310 [00:17<00:26,  6.37it/s]Loading weights:  45%|████▍     | 139/310 [00:17<00:26,  6.47it/s]Loading weights:  45%|████▌     | 140/310 [00:18<00:44,  3.80it/s]Loading weights:  45%|████▌     | 141/310 [00:19<00:47,  3.57it/s]Loading weights:  46%|████▌     | 142/310 [00:19<00:42,  3.91it/s]Loading weights:  46%|████▌     | 143/310 [00:19<00:43,  3.82it/s]Loading weights:  47%|████▋     | 147/310 [00:20<00:37,  4.39it/s]Loading weights:  50%|████▉     | 154/310 [00:20<00:18,  8.34it/s]Loading weights:  50%|█████     | 156/310 [00:21<00:28,  5.49it/s]Loading weights:  51%|█████     | 157/310 [00:21<00:28,  5.34it/s]Loading weights:  51%|█████     | 158/310 [00:21<00:30,  5.06it/s]Loading weights:  51%|█████▏    | 159/310 [00:22<00:30,  4.88it/s]Loading weights:  52%|█████▏    | 160/310 [00:23<00:54,  2.77it/s]Loading weights:  52%|█████▏    | 161/310 [00:23<00:52,  2.82it/s]Loading weights:  56%|█████▌    | 173/310 [00:23<00:11, 11.44it/s]Loading weights:  57%|█████▋    | 176/310 [00:23<00:10, 13.03it/s]Loading weights:  58%|█████▊    | 179/310 [00:24<00:11, 10.99it/s]Loading weights:  58%|█████▊    | 181/310 [00:24<00:17,  7.41it/s]Loading weights:  64%|██████▎   | 197/310 [00:25<00:06, 16.79it/s]Loading weights:  65%|██████▍   | 200/310 [00:25<00:06, 15.77it/s]Loading weights:  66%|██████▌   | 204/310 [00:25<00:06, 17.17it/s]Loading weights:  67%|██████▋   | 207/310 [00:25<00:05, 18.40it/s]Loading weights:  68%|██████▊   | 210/310 [00:26<00:07, 13.58it/s]Loading weights:  70%|███████   | 217/310 [00:26<00:06, 14.83it/s]Loading weights:  76%|███████▌  | 236/310 [00:27<00:04, 17.76it/s]Loading weights:  77%|███████▋  | 238/310 [00:27<00:04, 17.47it/s]Loading weights:  78%|███████▊  | 241/310 [00:27<00:04, 16.22it/s]Loading weights:  78%|███████▊  | 243/310 [00:28<00:05, 12.40it/s]Loading weights:  80%|████████  | 248/310 [00:28<00:04, 13.01it/s]Loading weights:  81%|████████▏ | 252/310 [00:29<00:04, 12.58it/s]Loading weights:  82%|████████▏ | 254/310 [00:30<00:08,  6.61it/s]Loading weights:  82%|████████▏ | 255/310 [00:31<00:12,  4.45it/s]Loading weights:  85%|████████▍ | 263/310 [00:31<00:06,  6.84it/s]Loading weights:  86%|████████▌ | 266/310 [00:32<00:06,  6.46it/s]Loading weights:  86%|████████▌ | 267/310 [00:32<00:09,  4.71it/s]Loading weights:  86%|████████▋ | 268/310 [00:33<00:09,  4.27it/s]Loading weights:  88%|████████▊ | 273/310 [00:33<00:05,  6.89it/s]Loading weights:  89%|████████▊ | 275/310 [00:33<00:04,  7.90it/s]Loading weights:  89%|████████▉ | 277/310 [00:34<00:06,  5.43it/s]Loading weights:  91%|█████████ | 281/310 [00:34<00:03,  7.65it/s]Loading weights:  91%|█████████▏| 283/310 [00:35<00:06,  4.13it/s]Loading weights:  92%|█████████▏| 285/310 [00:36<00:05,  4.85it/s]Loading weights:  92%|█████████▏| 286/310 [00:36<00:05,  4.42it/s]Loading weights:  93%|█████████▎| 287/310 [00:36<00:05,  3.89it/s]Loading weights:  93%|█████████▎| 288/310 [00:37<00:06,  3.57it/s]Loading weights:  94%|█████████▍| 292/310 [00:37<00:03,  5.49it/s]Loading weights:  95%|█████████▌| 296/310 [00:37<00:01,  7.56it/s]Loading weights:  96%|█████████▋| 299/310 [00:38<00:01,  7.90it/s]Loading weights:  97%|█████████▋| 300/310 [00:38<00:01,  6.60it/s]Loading weights:  97%|█████████▋| 301/310 [00:38<00:01,  5.62it/s]Loading weights:  98%|█████████▊| 305/310 [00:38<00:00,  9.36it/s]Loading weights:  99%|█████████▉| 307/310 [00:39<00:00,  7.51it/s]Loading weights: 100%|██████████| 310/310 [00:39<00:00,  7.88it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  70%|██████▉   | 216/310 [00:00<00:00, 2150.58it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2169.86it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  74%|███████▍  | 229/310 [00:00<00:00, 2285.89it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2289.93it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   1%|          | 2/310 [00:00<01:48,  2.85it/s]Loading weights:   1%|          | 3/310 [00:01<01:48,  2.83it/s]Loading weights:   1%|▏         | 4/310 [00:01<02:49,  1.81it/s]Loading weights:   2%|▏         | 5/310 [00:02<02:15,  2.25it/s]Loading weights:   2%|▏         | 6/310 [00:02<01:51,  2.74it/s]Loading weights:   3%|▎         | 8/310 [00:02<01:16,  3.94it/s]Loading weights:   5%|▍         | 14/310 [00:04<01:09,  4.26it/s]Loading weights:   5%|▍         | 15/310 [00:05<01:48,  2.71it/s]Loading weights:   5%|▌         | 16/310 [00:05<01:46,  2.76it/s]Loading weights:   7%|▋         | 21/310 [00:08<02:20,  2.06it/s]Loading weights:   7%|▋         | 22/310 [00:08<02:20,  2.05it/s]Loading weights:  13%|█▎        | 39/310 [00:09<00:35,  7.54it/s]Loading weights:  13%|█▎        | 41/310 [00:09<00:35,  7.60it/s]Loading weights:  14%|█▍        | 43/310 [00:10<00:38,  6.97it/s]Loading weights:  15%|█▍        | 45/310 [00:10<00:49,  5.35it/s]Loading weights:  15%|█▍        | 46/310 [00:11<00:52,  5.02it/s]Loading weights:  15%|█▌        | 47/310 [00:11<00:53,  4.89it/s]Loading weights:  15%|█▌        | 48/310 [00:11<01:08,  3.82it/s]Loading weights:  20%|██        | 62/310 [00:12<00:18, 13.24it/s]Loading weights:  21%|██        | 65/310 [00:12<00:17, 13.77it/s]Loading weights:  22%|██▏       | 67/310 [00:13<00:30,  7.95it/s]Loading weights:  23%|██▎       | 72/310 [00:13<00:25,  9.50it/s]Loading weights:  25%|██▌       | 78/310 [00:13<00:20, 11.51it/s]Loading weights:  26%|██▌       | 80/310 [00:15<00:45,  5.09it/s]Loading weights:  26%|██▋       | 82/310 [00:15<00:43,  5.29it/s]Loading weights:  27%|██▋       | 83/310 [00:16<00:41,  5.43it/s]Loading weights:  29%|██▊       | 89/310 [00:16<00:31,  7.11it/s]Loading weights:  30%|██▉       | 92/310 [00:16<00:28,  7.77it/s]Loading weights:  30%|███       | 94/310 [00:17<00:27,  7.79it/s]Loading weights:  33%|███▎      | 101/310 [00:17<00:23,  8.92it/s]Loading weights:  34%|███▎      | 104/310 [00:17<00:19, 10.46it/s]Loading weights:  34%|███▍      | 106/310 [00:18<00:18, 10.74it/s]Loading weights:  42%|████▏     | 131/310 [00:19<00:09, 18.69it/s]Loading weights:  43%|████▎     | 133/310 [00:19<00:10, 16.60it/s]Loading weights:  44%|████▎     | 135/310 [00:19<00:11, 14.62it/s]Loading weights:  44%|████▍     | 137/310 [00:20<00:17, 10.03it/s]Loading weights:  45%|████▍     | 138/310 [00:20<00:23,  7.27it/s]Loading weights:  47%|████▋     | 145/310 [00:21<00:14, 11.43it/s]Loading weights:  47%|████▋     | 147/310 [00:21<00:14, 11.21it/s]Loading weights:  48%|████▊     | 149/310 [00:21<00:20,  7.88it/s]Loading weights:  49%|████▉     | 152/310 [00:22<00:22,  7.01it/s]Loading weights:  52%|█████▏    | 160/310 [00:22<00:13, 10.96it/s]Loading weights:  54%|█████▎    | 166/310 [00:23<00:12, 11.55it/s]Loading weights:  55%|█████▌    | 172/310 [00:23<00:09, 15.12it/s]Loading weights:  56%|█████▋    | 175/310 [00:23<00:09, 14.57it/s]Loading weights:  57%|█████▋    | 178/310 [00:24<00:18,  7.29it/s]Loading weights:  58%|█████▊    | 180/310 [00:26<00:29,  4.34it/s]Loading weights:  58%|█████▊    | 181/310 [00:26<00:30,  4.27it/s]Loading weights:  61%|██████    | 189/310 [00:27<00:20,  6.03it/s]Loading weights:  62%|██████▏   | 191/310 [00:27<00:22,  5.22it/s]Loading weights:  63%|██████▎   | 196/310 [00:28<00:15,  7.32it/s]Loading weights:  64%|██████▍   | 199/310 [00:28<00:16,  6.56it/s]Loading weights:  65%|██████▌   | 202/310 [00:28<00:13,  7.96it/s]Loading weights:  66%|██████▌   | 204/310 [00:29<00:15,  6.85it/s]Loading weights:  68%|██████▊   | 211/310 [00:29<00:10,  9.45it/s]Loading weights:  69%|██████▊   | 213/310 [00:30<00:12,  7.91it/s]Loading weights:  69%|██████▉   | 214/310 [00:30<00:15,  6.01it/s]Loading weights:  78%|███████▊  | 241/310 [00:31<00:04, 14.38it/s]Loading weights:  78%|███████▊  | 243/310 [00:32<00:06,  9.93it/s]Loading weights:  80%|████████  | 249/310 [00:33<00:05, 10.92it/s]Loading weights:  81%|████████  | 251/310 [00:33<00:05, 11.04it/s]Loading weights:  82%|████████▏ | 253/310 [00:34<00:06,  8.41it/s]Loading weights:  84%|████████▍ | 260/310 [00:34<00:04, 11.85it/s]Loading weights:  85%|████████▍ | 263/310 [00:34<00:03, 12.87it/s]Loading weights:  85%|████████▌ | 265/310 [00:34<00:04, 10.06it/s]Loading weights:  86%|████████▌ | 267/310 [00:35<00:04,  9.80it/s]Loading weights:  87%|████████▋ | 270/310 [00:35<00:03, 10.40it/s]Loading weights:  89%|████████▊ | 275/310 [00:35<00:03, 10.21it/s]Loading weights:  91%|█████████▏| 283/310 [00:36<00:01, 14.24it/s]Loading weights:  92%|█████████▏| 285/310 [00:37<00:04,  5.18it/s]Loading weights:  93%|█████████▎| 287/310 [00:38<00:04,  5.43it/s]Loading weights:  95%|█████████▍| 293/310 [00:38<00:02,  8.14it/s]Loading weights:  95%|█████████▌| 295/310 [00:38<00:01,  8.02it/s]Loading weights:  96%|█████████▋| 299/310 [00:39<00:01,  9.16it/s]Loading weights:  97%|█████████▋| 301/310 [00:39<00:01,  8.76it/s]Loading weights:  98%|█████████▊| 303/310 [00:39<00:00,  8.27it/s]Loading weights: 100%|██████████| 310/310 [00:39<00:00,  7.82it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  71%|███████   | 219/310 [00:00<00:00, 2180.02it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2210.84it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  75%|███████▍  | 232/310 [00:00<00:00, 2286.08it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2408.86it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-11-01 16:27:33] exit code 1 =====
+
+
+===== [2026-11-01 16:27:33] session 20261101-162503 | diagnostics | attempt 2 =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:02<12:22,  2.40s/it]Loading weights:   3%|▎         | 10/311 [00:02<00:55,  5.44it/s]Loading weights:   5%|▌         | 17/311 [00:02<00:28, 10.16it/s]Loading weights:   9%|▉         | 28/311 [00:02<00:14, 19.12it/s]Loading weights:  13%|█▎        | 39/311 [00:02<00:09, 28.70it/s]Loading weights:  16%|█▌        | 50/311 [00:02<00:06, 39.18it/s]Loading weights:  20%|█▉        | 61/311 [00:03<00:05, 48.17it/s]Loading weights:  23%|██▎       | 72/311 [00:03<00:04, 57.09it/s]Loading weights:  27%|██▋       | 83/311 [00:03<00:03, 63.73it/s]Loading weights:  30%|███       | 94/311 [00:03<00:03, 70.70it/s]Loading weights:  34%|███▍      | 105/311 [00:03<00:02, 74.28it/s]Loading weights:  37%|███▋      | 116/311 [00:03<00:02, 78.86it/s]Loading weights:  41%|████      | 127/311 [00:03<00:02, 79.95it/s]Loading weights:  44%|████▍     | 138/311 [00:03<00:02, 84.30it/s]Loading weights:  48%|████▊     | 149/311 [00:04<00:01, 84.36it/s]Loading weights:  51%|█████▏    | 160/311 [00:04<00:01, 86.06it/s]Loading weights:  55%|█████▍    | 171/311 [00:04<00:01, 86.08it/s]Loading weights:  59%|█████▊    | 182/311 [00:04<00:01, 86.90it/s]Loading weights:  62%|██████▏   | 193/311 [00:04<00:01, 86.80it/s]Loading weights:  66%|██████▌   | 204/311 [00:04<00:01, 88.27it/s]Loading weights:  69%|██████▉   | 215/311 [00:04<00:01, 87.35it/s]Loading weights:  73%|███████▎  | 226/311 [00:04<00:00, 89.36it/s]Loading weights:  76%|███████▌  | 237/311 [00:05<00:00, 87.84it/s]Loading weights:  80%|███████▉  | 248/311 [00:05<00:00, 88.95it/s]Loading weights:  83%|████████▎ | 259/311 [00:05<00:00, 87.67it/s]Loading weights:  87%|████████▋ | 270/311 [00:05<00:00, 87.68it/s]Loading weights:  90%|█████████ | 281/311 [00:05<00:00, 87.88it/s]Loading weights:  94%|█████████▍| 292/311 [00:05<00:00, 88.68it/s]Loading weights:  97%|█████████▋| 303/311 [00:05<00:00, 88.10it/s]Loading weights: 100%|██████████| 311/311 [00:05<00:00, 52.80it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 223/310 [00:00<00:00, 2228.19it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2251.91it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  70%|███████   | 217/310 [00:00<00:00, 2168.67it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2190.46it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  71%|███████   | 220/310 [00:00<00:00, 2167.88it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2275.85it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 223/310 [00:00<00:00, 2213.93it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2205.05it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  70%|███████   | 217/310 [00:00<00:00, 2169.69it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2169.57it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 224/310 [00:00<00:00, 2229.56it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2240.45it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-11-01 16:27:59] exit code 1 =====
+
+
+===== [2026-11-01 16:27:59] session 20261101-162503 | diagnostics | attempt 3 =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:01,  2.56it/s]Loading weights:  13%|█▎        | 41/311 [00:00<00:02, 108.98it/s]Loading weights:  29%|██▊       | 89/311 [00:00<00:01, 211.13it/s]Loading weights:  43%|████▎     | 133/311 [00:00<00:00, 275.82it/s]Loading weights:  58%|█████▊    | 180/311 [00:00<00:00, 327.94it/s]Loading weights:  73%|███████▎  | 226/311 [00:00<00:00, 360.20it/s]Loading weights:  88%|████████▊ | 274/311 [00:01<00:00, 390.01it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 282.14it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  69%|██████▉   | 214/310 [00:00<00:00, 2112.75it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2113.00it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 210/310 [00:00<00:00, 2085.60it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2183.50it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 222/310 [00:00<00:00, 2207.60it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2211.66it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  71%|███████   | 219/310 [00:00<00:00, 2177.87it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2185.28it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 223/310 [00:00<00:00, 2220.24it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2240.10it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  70%|███████   | 217/310 [00:00<00:00, 2154.60it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2208.03it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+    ~~~~~~~~~~~~~~~^
+        path_or_repo_id,
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 85, in _inner_fn
+    validate_repo_id(arg_value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py", line 133, in validate_repo_id
+    raise HFValidationError(
+    ...<2 lines>...
+    )
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 118, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 88, in main
+    dW = delta_w(cond, l, device)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/content/drive/MyDrive/task1/src/diagnostics.py", line 34, in delta_w
+    m = AutoModelForCausalLM.from_pretrained(ckpt_dir(method, step) / "model", torch_dtype=torch.float32)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py", line 303, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(pretrained_model_name_or_path, **adapter_kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/peft_utils.py", line 82, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+        model_id,
+    ...<10 lines>...
+        _raise_exceptions_for_connection_errors=False,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/hub.py", line 595, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/content/artifacts/runs/l2sp/ckpt_update_1250/model'. Use `repo_type` argument if needed.
+
+===== [2026-11-01 16:28:19] exit code 1 =====
+
+
+===== [2026-11-01 17:19:26] session 20261101-171921 | diagnostics | attempt 1 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:17,  2.26it/s]Loading weights:  16%|█▌        | 50/311 [00:00<00:02, 120.76it/s]Loading weights:  33%|███▎      | 103/311 [00:00<00:00, 222.05it/s]Loading weights:  47%|████▋     | 147/311 [00:00<00:00, 279.46it/s]Loading weights:  61%|██████▏   | 191/311 [00:00<00:00, 320.31it/s]Loading weights:  76%|███████▌  | 237/311 [00:00<00:00, 354.71it/s]Loading weights:  93%|█████████▎| 289/311 [00:01<00:00, 401.39it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 279.84it/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 133911.09 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 286825.33 examples/s]
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]Generating train split:  58%|█████▊    | 23000/39905 [00:00<00:00, 221589.00 examples/s]Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 220686.19 examples/s]
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 179641.46 examples/s]
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 194396.01 examples/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   5%|▌         | 16/310 [00:00<00:02, 126.15it/s]Loading weights:   9%|▉         | 29/310 [00:09<01:45,  2.67it/s] Loading weights:  25%|██▌       | 79/310 [00:10<00:27,  8.47it/s]Loading weights:  27%|██▋       | 84/310 [00:10<00:25,  8.83it/s]Loading weights:  32%|███▏      | 98/310 [00:11<00:17, 11.85it/s]Loading weights:  34%|███▎      | 104/310 [00:11<00:15, 13.22it/s]Loading weights:  36%|███▌      | 112/310 [00:11<00:12, 16.14it/s]Loading weights:  40%|████      | 125/310 [00:12<00:13, 13.96it/s]Loading weights:  43%|████▎     | 134/310 [00:12<00:10, 17.05it/s]Loading weights:  46%|████▌     | 142/310 [00:13<00:09, 17.72it/s]Loading weights:  48%|████▊     | 149/310 [00:13<00:08, 18.75it/s]Loading weights:  52%|█████▏    | 161/310 [00:13<00:05, 25.88it/s]Loading weights:  54%|█████▎    | 166/310 [00:14<00:07, 19.09it/s]Loading weights:  55%|█████▌    | 172/310 [00:14<00:06, 21.36it/s]Loading weights:  57%|█████▋    | 176/310 [00:14<00:06, 20.62it/s]Loading weights:  58%|█████▊    | 180/310 [00:15<00:08, 14.46it/s]Loading weights:  59%|█████▉    | 183/310 [00:17<00:22,  5.69it/s]Loading weights:  61%|██████    | 189/310 [00:17<00:16,  7.21it/s]Loading weights:  64%|██████▍   | 199/310 [00:17<00:09, 11.89it/s]Loading weights:  65%|██████▌   | 202/310 [00:18<00:09, 11.46it/s]Loading weights:  67%|██████▋   | 208/310 [00:18<00:06, 15.05it/s]Loading weights:  68%|██████▊   | 212/310 [00:18<00:05, 16.87it/s]Loading weights:  81%|████████▏ | 252/310 [00:19<00:02, 26.15it/s]Loading weights:  84%|████████▍ | 260/310 [00:19<00:01, 29.50it/s]Loading weights:  85%|████████▌ | 265/310 [00:19<00:01, 29.88it/s]Loading weights:  87%|████████▋ | 269/310 [00:19<00:01, 30.94it/s]Loading weights:  88%|████████▊ | 273/310 [00:20<00:01, 31.04it/s]Loading weights:  89%|████████▉ | 277/310 [00:20<00:01, 26.51it/s]Loading weights:  91%|█████████ | 281/310 [00:20<00:01, 27.98it/s]Loading weights:  92%|█████████▏| 285/310 [00:20<00:00, 25.89it/s]Loading weights:  94%|█████████▎| 290/310 [00:20<00:00, 28.58it/s]Loading weights:  96%|█████████▌| 298/310 [00:20<00:00, 36.98it/s]Loading weights:  98%|█████████▊| 303/310 [00:23<00:01,  6.08it/s]Loading weights: 100%|██████████| 310/310 [00:23<00:00, 13.12it/s]
+fullft_mid 0 {'condition': 'fullft_mid', 'layer': 0, 'rho_k': 0.13388003408908844, 'eta': 0.013183088973164558, 'dW_fro': 0.6135414838790894, 'left_residual_rel': 0.36589622497558594, 'right_residual_rel': 0.2157849222421646}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 211/310 [00:00<00:00, 2099.70it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2111.95it/s]
+fullft_mid 13 {'condition': 'fullft_mid', 'layer': 13, 'rho_k': 0.1483084112405777, 'eta': 0.015397097915410995, 'dW_fro': 0.6556951999664307, 'left_residual_rel': 0.3851083219051361, 'right_residual_rel': 0.2011163979768753}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 223/310 [00:00<00:00, 2217.58it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2211.97it/s]
+fullft_mid 27 {'condition': 'fullft_mid', 'layer': 27, 'rho_k': 0.11595065146684647, 'eta': 0.012450029142200947, 'dW_fro': 0.5957310199737549, 'left_residual_rel': 0.34051528573036194, 'right_residual_rel': 0.2300361543893814}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/310 [00:00<00:26, 11.53it/s]Loading weights:   9%|▊         | 27/310 [00:02<00:20, 13.51it/s]Loading weights:  11%|█         | 34/310 [00:02<00:21, 12.62it/s]Loading weights:  12%|█▏        | 36/310 [00:02<00:21, 12.70it/s]Loading weights:  12%|█▏        | 38/310 [00:02<00:20, 13.09it/s]Loading weights:  13%|█▎        | 40/310 [00:03<00:19, 13.76it/s]Loading weights:  15%|█▍        | 45/310 [00:03<00:16, 15.81it/s]Loading weights:  15%|█▌        | 47/310 [00:03<00:16, 15.55it/s]Loading weights:  16%|█▌        | 49/310 [00:03<00:23, 11.01it/s]Loading weights:  18%|█▊        | 55/310 [00:04<00:21, 11.86it/s]Loading weights:  18%|█▊        | 57/310 [00:04<00:20, 12.43it/s]Loading weights:  20%|██        | 62/310 [00:04<00:22, 11.06it/s]Loading weights:  23%|██▎       | 70/310 [00:05<00:14, 16.78it/s]Loading weights:  24%|██▎       | 73/310 [00:05<00:14, 16.48it/s]Loading weights:  25%|██▍       | 76/310 [00:07<00:45,  5.12it/s]Loading weights:  26%|██▋       | 82/310 [00:07<00:29,  7.80it/s]Loading weights:  27%|██▋       | 85/310 [00:07<00:25,  8.94it/s]Loading weights:  29%|██▉       | 90/310 [00:07<00:17, 12.41it/s]Loading weights:  30%|███       | 93/310 [00:08<00:19, 11.15it/s]Loading weights:  31%|███       | 96/310 [00:08<00:17, 12.03it/s]Loading weights:  33%|███▎      | 101/310 [00:08<00:14, 13.99it/s]Loading weights:  34%|███▎      | 104/310 [00:08<00:15, 13.39it/s]Loading weights:  35%|███▌      | 109/310 [00:09<00:13, 14.77it/s]Loading weights:  36%|███▌      | 111/310 [00:11<00:55,  3.56it/s]Loading weights:  45%|████▌     | 140/310 [00:11<00:10, 15.48it/s]Loading weights:  48%|████▊     | 149/310 [00:12<00:12, 12.51it/s]Loading weights:  50%|█████     | 156/310 [00:13<00:12, 12.51it/s]Loading weights:  52%|█████▏    | 161/310 [00:13<00:11, 13.07it/s]Loading weights:  54%|█████▎    | 166/310 [00:14<00:10, 14.13it/s]Loading weights:  55%|█████▍    | 170/310 [00:14<00:14,  9.92it/s]Loading weights:  57%|█████▋    | 177/310 [00:15<00:14,  9.03it/s]Loading weights:  58%|█████▊    | 179/310 [00:18<00:29,  4.44it/s]Loading weights:  59%|█████▉    | 183/310 [00:19<00:32,  3.96it/s]Loading weights:  60%|█████▉    | 185/310 [00:20<00:33,  3.74it/s]Loading weights:  60%|██████    | 186/310 [00:20<00:34,  3.55it/s]Loading weights:  60%|██████    | 187/310 [00:20<00:35,  3.46it/s]Loading weights:  61%|██████    | 188/310 [00:20<00:32,  3.73it/s]Loading weights:  61%|██████    | 189/310 [00:21<00:35,  3.39it/s]Loading weights:  63%|██████▎   | 194/310 [00:21<00:21,  5.28it/s]Loading weights:  65%|██████▌   | 202/310 [00:22<00:12,  8.95it/s]Loading weights:  67%|██████▋   | 208/310 [00:22<00:09, 10.54it/s]Loading weights:  68%|██████▊   | 210/310 [00:23<00:11,  8.35it/s]Loading weights:  68%|██████▊   | 211/310 [00:23<00:17,  5.56it/s]Loading weights:  80%|████████  | 248/310 [00:25<00:04, 14.67it/s]Loading weights:  83%|████████▎ | 257/310 [00:26<00:04, 11.84it/s]Loading weights:  84%|████████▎ | 259/310 [00:27<00:04, 11.34it/s]Loading weights:  84%|████████▍ | 260/310 [00:27<00:05,  9.04it/s]Loading weights:  86%|████████▌ | 266/310 [00:27<00:03, 11.80it/s]Loading weights:  87%|████████▋ | 269/310 [00:28<00:04,  9.85it/s]Loading weights:  89%|████████▉ | 277/310 [00:28<00:02, 14.31it/s]Loading weights:  90%|█████████ | 280/310 [00:29<00:02, 10.42it/s]Loading weights:  91%|█████████ | 282/310 [00:29<00:02,  9.67it/s]Loading weights:  92%|█████████▏| 284/310 [00:30<00:05,  4.91it/s]Loading weights:  92%|█████████▏| 286/310 [00:31<00:04,  5.48it/s]Loading weights:  93%|█████████▎| 288/310 [00:31<00:03,  6.10it/s]Loading weights:  94%|█████████▎| 290/310 [00:31<00:03,  6.20it/s]Loading weights:  96%|█████████▋| 299/310 [00:31<00:00, 13.21it/s]Loading weights:  97%|█████████▋| 302/310 [00:32<00:00, 10.45it/s]Loading weights:  98%|█████████▊| 304/310 [00:34<00:01,  4.08it/s]Loading weights: 100%|██████████| 310/310 [00:34<00:00,  9.05it/s]
+fullft_final 0 {'condition': 'fullft_final', 'layer': 0, 'rho_k': 0.1335257887840271, 'eta': 0.013636761344969273, 'dW_fro': 0.6346554160118103, 'left_residual_rel': 0.36541181802749634, 'right_residual_rel': 0.21557044982910156}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  66%|██████▋   | 206/310 [00:00<00:00, 2055.91it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2053.80it/s]
+fullft_final 13 {'condition': 'fullft_final', 'layer': 13, 'rho_k': 0.14818046987056732, 'eta': 0.016024233773350716, 'dW_fro': 0.6824021935462952, 'left_residual_rel': 0.3849421739578247, 'right_residual_rel': 0.20132926106452942}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 208/310 [00:00<00:00, 2072.49it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2143.99it/s]
+fullft_final 27 {'condition': 'fullft_final', 'layer': 27, 'rho_k': 0.1153779849410057, 'eta': 0.012946084141731262, 'dW_fro': 0.6194671392440796, 'left_residual_rel': 0.33967334032058716, 'right_residual_rel': 0.22867141664028168}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:   3%|▎         | 10/310 [00:00<00:11, 27.23it/s]Loading weights:   4%|▍         | 13/310 [00:00<00:20, 14.32it/s]Loading weights:   5%|▍         | 15/310 [00:00<00:21, 13.46it/s]Loading weights:   5%|▌         | 17/310 [00:03<02:01,  2.41it/s]Loading weights:   7%|▋         | 22/310 [00:06<01:59,  2.40it/s]Loading weights:   8%|▊         | 24/310 [00:06<01:37,  2.92it/s]Loading weights:  11%|█         | 33/310 [00:10<01:58,  2.33it/s]Loading weights:  17%|█▋        | 53/310 [00:12<00:50,  5.07it/s]Loading weights:  17%|█▋        | 54/310 [00:13<00:59,  4.30it/s]Loading weights:  18%|█▊        | 55/310 [00:13<01:02,  4.06it/s]Loading weights:  20%|█▉        | 61/310 [00:13<00:42,  5.80it/s]Loading weights:  20%|██        | 63/310 [00:14<00:44,  5.61it/s]Loading weights:  22%|██▏       | 68/310 [00:14<00:38,  6.22it/s]Loading weights:  23%|██▎       | 70/310 [00:15<00:42,  5.67it/s]Loading weights:  23%|██▎       | 71/310 [00:15<00:46,  5.13it/s]Loading weights:  23%|██▎       | 72/310 [00:15<00:52,  4.55it/s]Loading weights:  25%|██▌       | 78/310 [00:16<00:40,  5.74it/s]Loading weights:  25%|██▌       | 79/310 [00:17<00:46,  4.95it/s]Loading weights:  27%|██▋       | 84/310 [00:17<00:32,  7.05it/s]Loading weights:  28%|██▊       | 86/310 [00:17<00:34,  6.47it/s]Loading weights:  28%|██▊       | 87/310 [00:18<00:39,  5.59it/s]Loading weights:  29%|██▊       | 89/310 [00:19<00:53,  4.14it/s]Loading weights:  29%|██▉       | 90/310 [00:19<01:03,  3.49it/s]Loading weights:  29%|██▉       | 91/310 [00:19<00:55,  3.94it/s]Loading weights:  32%|███▏      | 98/310 [00:20<00:24,  8.65it/s]Loading weights:  32%|███▏      | 100/310 [00:21<01:02,  3.37it/s]Loading weights:  34%|███▍      | 105/310 [00:22<00:43,  4.66it/s]Loading weights:  41%|████      | 127/310 [00:24<00:24,  7.54it/s]Loading weights:  45%|████▍     | 139/310 [00:24<00:15, 11.16it/s]Loading weights:  46%|████▌     | 142/310 [00:25<00:18,  9.05it/s]Loading weights:  47%|████▋     | 147/310 [00:25<00:15, 10.62it/s]Loading weights:  48%|████▊     | 150/310 [00:26<00:16,  9.79it/s]Loading weights:  50%|████▉     | 154/310 [00:26<00:16,  9.44it/s]Loading weights:  50%|█████     | 156/310 [00:27<00:17,  9.01it/s]Loading weights:  52%|█████▏    | 160/310 [00:27<00:13, 11.42it/s]Loading weights:  54%|█████▍    | 167/310 [00:27<00:09, 15.68it/s]Loading weights:  55%|█████▍    | 170/310 [00:27<00:09, 14.20it/s]Loading weights:  56%|█████▋    | 175/310 [00:27<00:07, 17.88it/s]Loading weights:  57%|█████▋    | 178/310 [00:29<00:22,  5.95it/s]Loading weights:  60%|██████    | 186/310 [00:29<00:14,  8.71it/s]Loading weights:  64%|██████▎   | 197/310 [00:30<00:08, 14.06it/s]Loading weights:  65%|██████▌   | 202/310 [00:30<00:06, 15.49it/s]Loading weights:  67%|██████▋   | 208/310 [00:30<00:05, 18.26it/s]Loading weights:  68%|██████▊   | 211/310 [00:30<00:05, 16.88it/s]Loading weights:  80%|███████▉  | 247/310 [00:32<00:03, 20.38it/s]Loading weights:  81%|████████  | 250/310 [00:33<00:03, 16.51it/s]Loading weights:  83%|████████▎ | 257/310 [00:33<00:02, 18.74it/s]Loading weights:  84%|████████▍ | 260/310 [00:33<00:03, 14.75it/s]Loading weights:  86%|████████▌ | 266/310 [00:34<00:02, 14.76it/s]Loading weights:  87%|████████▋ | 271/310 [00:34<00:02, 13.14it/s]Loading weights:  89%|████████▉ | 276/310 [00:35<00:03, 10.87it/s]Loading weights:  90%|█████████ | 280/310 [00:35<00:02, 12.32it/s]Loading weights:  92%|█████████▏| 285/310 [00:35<00:01, 13.34it/s]Loading weights:  93%|█████████▎| 287/310 [00:36<00:01, 12.57it/s]Loading weights:  93%|█████████▎| 289/310 [00:36<00:01, 12.57it/s]Loading weights:  94%|█████████▍| 291/310 [00:38<00:04,  4.27it/s]Loading weights:  96%|█████████▋| 299/310 [00:38<00:01,  6.29it/s]Loading weights:  97%|█████████▋| 301/310 [00:39<00:01,  5.83it/s]Loading weights: 100%|██████████| 310/310 [00:39<00:00,  7.90it/s]
+l2sp_final 0 {'condition': 'l2sp_final', 'layer': 0, 'rho_k': 0.1323559731245041, 'eta': 0.009467873722314835, 'dW_fro': 0.44063520431518555, 'left_residual_rel': 0.3638076186180115, 'right_residual_rel': 0.2142389416694641}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 209/310 [00:00<00:00, 2070.73it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2081.76it/s]
+l2sp_final 13 {'condition': 'l2sp_final', 'layer': 13, 'rho_k': 0.15104563534259796, 'eta': 0.012025409378111362, 'dW_fro': 0.5121096968650818, 'left_residual_rel': 0.3886459171772003, 'right_residual_rel': 0.19376961886882782}
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  69%|██████▉   | 215/310 [00:00<00:00, 2147.50it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 2137.20it/s]
+l2sp_final 27 {'condition': 'l2sp_final', 'layer': 27, 'rho_k': 0.10581812262535095, 'eta': 0.006233104970306158, 'dW_fro': 0.2982526421546936, 'left_residual_rel': 0.32529696822166443, 'right_residual_rel': 0.19849541783332825}
+lora4_final 0 {'condition': 'lora4_final', 'layer': 0, 'rho_k': 0.13712650537490845, 'eta': 0.009437085129320621, 'dW_fro': 0.43920230865478516, 'left_residual_rel': 0.37030595541000366, 'right_residual_rel': 0.21339911222457886}
+lora4_final 13 {'condition': 'lora4_final', 'layer': 13, 'rho_k': 0.1394900679588318, 'eta': 0.011490151286125183, 'dW_fro': 0.489315390586853, 'left_residual_rel': 0.37348368763923645, 'right_residual_rel': 0.1948641538619995}
+lora4_final 27 {'condition': 'lora4_final', 'layer': 27, 'rho_k': 0.09551180154085159, 'eta': 0.006600906606763601, 'dW_fro': 0.3158518671989441, 'left_residual_rel': 0.3090498447418213, 'right_residual_rel': 0.20362251996994019}
+lora16_final 0 {'condition': 'lora16_final', 'layer': 0, 'rho_k': 0.1373932957649231, 'eta': 0.01442375872284174, 'dW_fro': 0.6712822914123535, 'left_residual_rel': 0.3706659972667694, 'right_residual_rel': 0.1973593831062317}
+lora16_final 13 {'condition': 'lora16_final', 'layer': 13, 'rho_k': 0.13498930633068085, 'eta': 0.018427034839987755, 'dW_fro': 0.7847269773483276, 'left_residual_rel': 0.3674089014530182, 'right_residual_rel': 0.1994834542274475}
+lora16_final 27 {'condition': 'lora16_final', 'layer': 27, 'rho_k': 0.11531610041856766, 'eta': 0.011067272163927555, 'dW_fro': 0.5295664072036743, 'left_residual_rel': 0.339582234621048, 'right_residual_rel': 0.21645493805408478}
+oplora_final 0 {'condition': 'oplora_final', 'layer': 0, 'rho_k': 9.332138395379275e-10, 'eta': 0.01512184739112854, 'dW_fro': 0.7037713527679443, 'left_residual_rel': 3.054854823858477e-05, 'right_residual_rel': 3.687834396259859e-05}
+oplora_final 13 {'condition': 'oplora_final', 'layer': 13, 'rho_k': 8.940079232466758e-10, 'eta': 0.01907137967646122, 'dW_fro': 0.8121668100357056, 'left_residual_rel': 2.9899965738877654e-05, 'right_residual_rel': 4.517528577707708e-05}
+oplora_final 27 {'condition': 'oplora_final', 'layer': 27, 'rho_k': 1.989766573728957e-09, 'eta': 0.009255887009203434, 'dW_fro': 0.44289204478263855, 'left_residual_rel': 4.46068006567657e-05, 'right_residual_rel': 7.918127084849402e-05}
+saved diagnostics -> /content/artifacts/diagnostics
+
+===== [2026-11-01 17:22:36] exit code 0 =====

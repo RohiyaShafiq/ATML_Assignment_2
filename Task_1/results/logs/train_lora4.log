@@ -1,0 +1,162 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:03,  2.51it/s]Loading weights:  13%|█▎        | 39/311 [00:00<00:02, 102.03it/s]Loading weights:  29%|██▊       | 89/311 [00:00<00:01, 208.84it/s]Loading weights:  44%|████▎     | 136/311 [00:00<00:00, 276.02it/s]Loading weights:  58%|█████▊    | 181/311 [00:00<00:00, 320.40it/s]Loading weights:  73%|███████▎  | 226/311 [00:00<00:00, 352.00it/s]Loading weights:  87%|████████▋ | 270/311 [00:01<00:00, 376.18it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 282.77it/s]
+[lora4] trainable=2,523,136 total=598,573,056 device=cuda
+[lora4] upd 1/1250 loss 1.0286 lr 5.26e-06 gn 2.06
+[lora4] upd 10/1250 loss 0.7459 lr 5.26e-05 gn 1.58
+[lora4] upd 20/1250 loss 0.4586 lr 1.05e-04 gn 0.58
+[lora4] upd 30/1250 loss 0.3606 lr 1.58e-04 gn 0.33
+[lora4] upd 40/1250 loss 0.3370 lr 2.00e-04 gn 0.31
+[lora4] upd 50/1250 loss 0.2762 lr 2.00e-04 gn 0.23
+[lora4] upd 60/1250 loss 0.3002 lr 2.00e-04 gn 0.24
+[lora4] upd 70/1250 loss 0.2872 lr 2.00e-04 gn 0.26
+[lora4] upd 80/1250 loss 0.2728 lr 1.99e-04 gn 0.26
+[lora4] upd 90/1250 loss 0.2721 lr 1.99e-04 gn 0.26
+[lora4] upd 100/1250 loss 0.2690 lr 1.99e-04 gn 0.24
+[lora4] upd 110/1250 loss 0.2829 lr 1.98e-04 gn 0.32
+[lora4] upd 120/1250 loss 0.2423 lr 1.98e-04 gn 0.26
+[lora4] upd 130/1250 loss 0.2463 lr 1.97e-04 gn 0.26
+[lora4] upd 140/1250 loss 0.2533 lr 1.97e-04 gn 0.29
+[lora4] upd 150/1250 loss 0.2594 lr 1.96e-04 gn 0.28
+[lora4] upd 160/1250 loss 0.2388 lr 1.95e-04 gn 0.25
+[lora4] upd 170/1250 loss 0.2718 lr 1.94e-04 gn 0.28
+[lora4] upd 180/1250 loss 0.2688 lr 1.93e-04 gn 0.30
+[lora4] upd 190/1250 loss 0.2316 lr 1.92e-04 gn 0.28
+[lora4] upd 200/1250 loss 0.2168 lr 1.91e-04 gn 0.27
+[lora4] upd 210/1250 loss 0.2735 lr 1.90e-04 gn 0.33
+[lora4] upd 220/1250 loss 0.2599 lr 1.89e-04 gn 0.29
+[lora4] upd 230/1250 loss 0.2081 lr 1.88e-04 gn 0.26
+[lora4] upd 240/1250 loss 0.2665 lr 1.87e-04 gn 0.26
+[lora4] upd 250/1250 loss 0.2577 lr 1.85e-04 gn 0.30
+[lora4] upd 260/1250 loss 0.2071 lr 1.84e-04 gn 0.25
+[lora4] upd 270/1250 loss 0.2468 lr 1.83e-04 gn 0.29
+[lora4] upd 280/1250 loss 0.2048 lr 1.81e-04 gn 0.23
+[lora4] upd 290/1250 loss 0.2952 lr 1.80e-04 gn 0.32
+[lora4] upd 300/1250 loss 0.2234 lr 1.78e-04 gn 0.28
+[lora4] upd 310/1250 loss 0.2645 lr 1.76e-04 gn 0.27
+[lora4] checkpoint 312: {'update': 312, 'examples_seen': 9984, 'model_dir_bytes': 10207919, 'trainer_state_bytes': 20533565, 'save_time_s': 4.42139744758606}
+[lora4] upd 320/1250 loss 0.1964 lr 1.75e-04 gn 0.23
+[lora4] upd 330/1250 loss 0.2306 lr 1.73e-04 gn 0.29
+[lora4] upd 340/1250 loss 0.2163 lr 1.71e-04 gn 0.28
+[lora4] upd 350/1250 loss 0.2343 lr 1.69e-04 gn 0.26
+[lora4] upd 360/1250 loss 0.2516 lr 1.67e-04 gn 0.26
+[lora4] upd 370/1250 loss 0.2569 lr 1.65e-04 gn 0.29
+[lora4] upd 380/1250 loss 0.2235 lr 1.63e-04 gn 0.31
+[lora4] upd 390/1250 loss 0.2103 lr 1.61e-04 gn 0.28
+[lora4] upd 400/1250 loss 0.2209 lr 1.59e-04 gn 0.27
+[lora4] upd 410/1250 loss 0.2206 lr 1.57e-04 gn 0.27
+[lora4] upd 420/1250 loss 0.2564 lr 1.55e-04 gn 0.30
+[lora4] upd 430/1250 loss 0.2213 lr 1.53e-04 gn 0.27
+[lora4] upd 440/1250 loss 0.2154 lr 1.51e-04 gn 0.28
+[lora4] upd 450/1250 loss 0.2432 lr 1.48e-04 gn 0.29
+[lora4] upd 460/1250 loss 0.2436 lr 1.46e-04 gn 0.25
+[lora4] upd 470/1250 loss 0.2254 lr 1.44e-04 gn 0.30
+[lora4] upd 480/1250 loss 0.2327 lr 1.41e-04 gn 0.27
+[lora4] upd 490/1250 loss 0.1753 lr 1.39e-04 gn 0.27
+[lora4] upd 500/1250 loss 0.2229 lr 1.37e-04 gn 0.28
+[lora4] upd 510/1250 loss 0.2388 lr 1.34e-04 gn 0.27
+[lora4] upd 520/1250 loss 0.2011 lr 1.32e-04 gn 0.26
+[lora4] upd 530/1250 loss 0.2114 lr 1.29e-04 gn 0.26
+[lora4] upd 540/1250 loss 0.2436 lr 1.27e-04 gn 0.29
+[lora4] upd 550/1250 loss 0.2108 lr 1.24e-04 gn 0.27
+[lora4] upd 560/1250 loss 0.2415 lr 1.22e-04 gn 0.26
+[lora4] upd 570/1250 loss 0.2183 lr 1.19e-04 gn 0.27
+[lora4] upd 580/1250 loss 0.2150 lr 1.17e-04 gn 0.26
+[lora4] upd 590/1250 loss 0.2264 lr 1.14e-04 gn 0.27
+[lora4] upd 600/1250 loss 0.2154 lr 1.12e-04 gn 0.28
+[lora4] upd 610/1250 loss 0.1910 lr 1.09e-04 gn 0.25
+[lora4] upd 620/1250 loss 0.2650 lr 1.06e-04 gn 0.30
+[lora4] checkpoint 625: {'update': 625, 'examples_seen': 20000, 'model_dir_bytes': 10207919, 'trainer_state_bytes': 20533693, 'save_time_s': 4.380840301513672}
+[lora4] upd 630/1250 loss 0.1975 lr 1.04e-04 gn 0.28
+[lora4] upd 640/1250 loss 0.2006 lr 1.01e-04 gn 0.26
+[lora4] upd 650/1250 loss 0.1906 lr 9.87e-05 gn 0.28
+[lora4] upd 660/1250 loss 0.2338 lr 9.61e-05 gn 0.27
+[lora4] upd 670/1250 loss 0.2057 lr 9.35e-05 gn 0.26
+[lora4] upd 680/1250 loss 0.2253 lr 9.09e-05 gn 0.30
+[lora4] upd 690/1250 loss 0.2305 lr 8.84e-05 gn 0.29
+[lora4] upd 700/1250 loss 0.2225 lr 8.58e-05 gn 0.27
+[lora4] upd 710/1250 loss 0.2103 lr 8.32e-05 gn 0.32
+[lora4] upd 720/1250 loss 0.2328 lr 8.07e-05 gn 0.30
+[lora4] upd 730/1250 loss 0.2151 lr 7.81e-05 gn 0.26
+[lora4] upd 740/1250 loss 0.2171 lr 7.56e-05 gn 0.24
+[lora4] upd 750/1250 loss 0.1691 lr 7.31e-05 gn 0.26
+[lora4] upd 760/1250 loss 0.2559 lr 7.06e-05 gn 0.30
+[lora4] upd 770/1250 loss 0.2098 lr 6.82e-05 gn 0.31
+[lora4] upd 780/1250 loss 0.2227 lr 6.57e-05 gn 0.30
+[lora4] upd 790/1250 loss 0.1869 lr 6.33e-05 gn 0.27
+[lora4] upd 800/1250 loss 0.1924 lr 6.09e-05 gn 0.28
+[lora4] upd 810/1250 loss 0.2577 lr 5.85e-05 gn 0.34
+[lora4] upd 820/1250 loss 0.2019 lr 5.62e-05 gn 0.30
+[lora4] upd 830/1250 loss 0.1867 lr 5.39e-05 gn 0.25
+[lora4] upd 840/1250 loss 0.2281 lr 5.16e-05 gn 0.31
+[lora4] upd 850/1250 loss 0.2176 lr 4.93e-05 gn 0.26
+[lora4] upd 860/1250 loss 0.1852 lr 4.71e-05 gn 0.27
+[lora4] upd 870/1250 loss 0.1755 lr 4.49e-05 gn 0.27
+[lora4] upd 880/1250 loss 0.1837 lr 4.28e-05 gn 0.27
+[lora4] upd 890/1250 loss 0.2141 lr 4.07e-05 gn 0.28
+[lora4] upd 900/1250 loss 0.1925 lr 3.86e-05 gn 0.28
+[lora4] upd 910/1250 loss 0.1747 lr 3.66e-05 gn 0.27
+[lora4] upd 920/1250 loss 0.2368 lr 3.46e-05 gn 0.31
+[lora4] upd 930/1250 loss 0.1895 lr 3.27e-05 gn 0.25
+[lora4] checkpoint 937: {'update': 937, 'examples_seen': 29984, 'model_dir_bytes': 10207919, 'trainer_state_bytes': 20533757, 'save_time_s': 0.41535186767578125}
+[lora4] upd 940/1250 loss 0.1925 lr 3.08e-05 gn 0.25
+[lora4] upd 950/1250 loss 0.2249 lr 2.89e-05 gn 0.31
+[lora4] upd 960/1250 loss 0.1843 lr 2.71e-05 gn 0.25
+[lora4] upd 970/1250 loss 0.2394 lr 2.54e-05 gn 0.28
+[lora4] upd 980/1250 loss 0.2086 lr 2.37e-05 gn 0.28
+[lora4] upd 990/1250 loss 0.2027 lr 2.20e-05 gn 0.30
+[lora4] upd 1000/1250 loss 0.2288 lr 2.04e-05 gn 0.28
+[lora4] upd 1010/1250 loss 0.2149 lr 1.89e-05 gn 0.28
+[lora4] upd 1020/1250 loss 0.1702 lr 1.74e-05 gn 0.27
+[lora4] upd 1030/1250 loss 0.2319 lr 1.60e-05 gn 0.30
+[lora4] upd 1040/1250 loss 0.1992 lr 1.46e-05 gn 0.28
+[lora4] upd 1050/1250 loss 0.2446 lr 1.33e-05 gn 0.30
+[lora4] upd 1060/1250 loss 0.1820 lr 1.20e-05 gn 0.26
+[lora4] upd 1070/1250 loss 0.2539 lr 1.08e-05 gn 0.33
+[lora4] upd 1080/1250 loss 0.1898 lr 9.66e-06 gn 0.27
+[lora4] upd 1090/1250 loss 0.2193 lr 8.58e-06 gn 0.29
+[lora4] upd 1100/1250 loss 0.2286 lr 7.56e-06 gn 0.31
+[lora4] upd 1110/1250 loss 0.1987 lr 6.60e-06 gn 0.35
+[lora4] upd 1120/1250 loss 0.1829 lr 5.71e-06 gn 0.27
+[lora4] upd 1130/1250 loss 0.1913 lr 4.88e-06 gn 0.27
+[lora4] upd 1140/1250 loss 0.2011 lr 4.11e-06 gn 0.24
+[lora4] upd 1150/1250 loss 0.1812 lr 3.41e-06 gn 0.27
+[lora4] upd 1160/1250 loss 0.2318 lr 2.77e-06 gn 0.28
+[lora4] upd 1170/1250 loss 0.1798 lr 2.20e-06 gn 0.26
+[lora4] upd 1180/1250 loss 0.2019 lr 1.69e-06 gn 0.27
+[lora4] upd 1190/1250 loss 0.2481 lr 1.25e-06 gn 0.27
+[lora4] upd 1200/1250 loss 0.1923 lr 8.73e-07 gn 0.28
+[lora4] upd 1210/1250 loss 0.1830 lr 5.64e-07 gn 0.30
+[lora4] upd 1220/1250 loss 0.1923 lr 3.23e-07 gn 0.29
+[lora4] upd 1230/1250 loss 0.2032 lr 1.48e-07 gn 0.25
+[lora4] upd 1240/1250 loss 0.2307 lr 4.06e-08 gn 0.29
+[lora4] upd 1250/1250 loss 0.1925 lr 3.36e-10 gn 0.28
+[lora4] checkpoint 1250: {'update': 1250, 'examples_seen': 40000, 'model_dir_bytes': 10207919, 'trainer_state_bytes': 20533821, 'save_time_s': 0.3948657512664795}
+done: {'method': 'lora4', 'label': 'LoRA-4', 'lr': 0.0002, 'l2sp_lambda': 0.0, 'trainable_params': 2523136, 'total_params_in_model': 598573056, 'train_time_s': 9355.926800251007, 'updates_done': 1250, 'skipped_updates': 0, 'peak_gpu_mem_allocated_bytes': 6226161152, 'peak_gpu_mem_reserved_bytes': 7543455744, 'overhead': {}, 'device': 'cuda', 'amp_fp16': True}
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/train.py", line 104, in main
+    data = synthetic_data(total * EFF_BS) if tiny else torch.load(args.data_path, weights_only=False)
+                                                       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 1530, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/data/train_tokenized.pt'
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:02<15:09,  2.93s/it]Loading weights:   2%|▏         | 6/311 [00:03<01:56,  2.61it/s]Loading weights:   5%|▌         | 16/311 [00:03<00:34,  8.58it/s]Loading weights:   8%|▊         | 26/311 [00:03<00:18, 15.38it/s]Loading weights:  11%|█         | 34/311 [00:03<00:12, 21.75it/s]Loading weights:  13%|█▎        | 41/311 [00:03<00:09, 27.18it/s]Loading weights:  15%|█▌        | 48/311 [00:03<00:07, 33.23it/s]Loading weights:  18%|█▊        | 56/311 [00:03<00:06, 41.12it/s]Loading weights:  20%|██        | 63/311 [00:03<00:05, 44.25it/s]Loading weights:  23%|██▎       | 72/311 [00:04<00:04, 47.95it/s]Loading weights:  26%|██▋       | 82/311 [00:04<00:03, 57.53it/s]Loading weights:  30%|██▉       | 92/311 [00:04<00:03, 59.44it/s]Loading weights:  32%|███▏      | 100/311 [00:04<00:03, 62.00it/s]Loading weights:  34%|███▍      | 107/311 [00:04<00:03, 61.39it/s]Loading weights:  37%|███▋      | 115/311 [00:04<00:03, 64.98it/s]Loading weights:  40%|████      | 125/311 [00:04<00:02, 66.47it/s]Loading weights:  43%|████▎     | 133/311 [00:04<00:02, 68.15it/s]Loading weights:  45%|████▌     | 141/311 [00:05<00:02, 68.98it/s]Loading weights:  48%|████▊     | 149/311 [00:05<00:02, 62.52it/s]Loading weights:  51%|█████     | 159/311 [00:05<00:02, 71.42it/s]Loading weights:  54%|█████▍    | 169/311 [00:05<00:01, 71.16it/s]Loading weights:  57%|█████▋    | 177/311 [00:05<00:01, 71.69it/s]Loading weights:  59%|█████▉    | 185/311 [00:05<00:01, 71.21it/s]Loading weights:  62%|██████▏   | 193/311 [00:05<00:01, 64.10it/s]Loading weights:  65%|██████▍   | 202/311 [00:05<00:01, 70.12it/s]Loading weights:  68%|██████▊   | 210/311 [00:05<00:01, 72.10it/s]Loading weights:  70%|███████   | 218/311 [00:06<00:01, 71.11it/s]Loading weights:  73%|███████▎  | 226/311 [00:06<00:01, 66.14it/s]Loading weights:  76%|███████▌  | 236/311 [00:06<00:01, 73.82it/s]Loading weights:  79%|███████▉  | 246/311 [00:06<00:00, 72.25it/s]Loading weights:  82%|████████▏ | 254/311 [00:06<00:00, 72.16it/s]Loading weights:  84%|████████▍ | 262/311 [00:06<00:00, 72.50it/s]Loading weights:  87%|████████▋ | 270/311 [00:06<00:00, 66.47it/s]Loading weights:  90%|█████████ | 280/311 [00:06<00:00, 74.04it/s]Loading weights:  93%|█████████▎| 290/311 [00:07<00:00, 72.32it/s]Loading weights:  96%|█████████▌| 298/311 [00:07<00:00, 72.13it/s]Loading weights:  98%|█████████▊| 306/311 [00:07<00:00, 69.50it/s]Loading weights: 100%|██████████| 311/311 [00:07<00:00, 42.04it/s]
+[lora4] trainable=2,523,136 total=598,573,056 device=cuda
+[lora4] upd 1/1250 loss 1.0286 lr 5.26e-06 gn 2.06
+[lora4] upd 10/1250 loss 0.7459 lr 5.26e-05 gn 1.58
+[lora4] upd 20/1250 loss 0.4587 lr 1.05e-04 gn 0.58
+[lora4] upd 30/1250 loss 0.3607 lr 1.58e-04 gn 0.33
+[lora4] upd 40/1250 loss 0.3369 lr 2.00e-04 gn 0.31
+[lora4] upd 50/1250 loss 0.2763 lr 2.00e-04 gn 0.22
+[lora4] upd 60/1250 loss 0.3004 lr 2.00e-04 gn 0.24
+[lora4] upd 70/1250 loss 0.2875 lr 2.00e-04 gn 0.26
+[lora4] upd 80/1250 loss 0.2730 lr 1.99e-04 gn 0.26

@@ -1,0 +1,245 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:19,  2.22it/s]Loading weights:  15%|█▌        | 48/311 [00:00<00:02, 112.79it/s]Loading weights:  28%|██▊       | 87/311 [00:00<00:01, 182.54it/s]Loading weights:  41%|████      | 127/311 [00:00<00:00, 235.96it/s]Loading weights:  54%|█████▍    | 169/311 [00:00<00:00, 276.33it/s]Loading weights:  68%|██████▊   | 213/311 [00:00<00:00, 316.21it/s]Loading weights:  83%|████████▎ | 257/311 [00:01<00:00, 350.33it/s]Loading weights:  97%|█████████▋| 301/311 [00:01<00:00, 369.19it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 257.70it/s]
+[lora16] trainable=10,092,544 total=606,142,464 device=cuda
+[lora16] upd 1/1250 loss 1.0286 lr 5.26e-06 gn 3.83
+[lora16] upd 10/1250 loss 0.4745 lr 5.26e-05 gn 1.07
+[lora16] upd 20/1250 loss 0.3584 lr 1.05e-04 gn 0.50
+[lora16] upd 30/1250 loss 0.2986 lr 1.58e-04 gn 0.37
+[lora16] upd 40/1250 loss 0.2979 lr 2.00e-04 gn 0.37
+[lora16] upd 50/1250 loss 0.2521 lr 2.00e-04 gn 0.29
+[lora16] upd 60/1250 loss 0.2713 lr 2.00e-04 gn 0.30
+[lora16] upd 70/1250 loss 0.2725 lr 2.00e-04 gn 0.33
+[lora16] upd 80/1250 loss 0.2552 lr 1.99e-04 gn 0.33
+[lora16] upd 90/1250 loss 0.2515 lr 1.99e-04 gn 0.32
+[lora16] upd 100/1250 loss 0.2577 lr 1.99e-04 gn 0.30
+[lora16] upd 110/1250 loss 0.2651 lr 1.98e-04 gn 0.34
+[lora16] upd 120/1250 loss 0.2294 lr 1.98e-04 gn 0.29
+[lora16] upd 130/1250 loss 0.2330 lr 1.97e-04 gn 0.29
+[lora16] upd 140/1250 loss 0.2423 lr 1.97e-04 gn 0.34
+[lora16] upd 150/1250 loss 0.2422 lr 1.96e-04 gn 0.28
+[lora16] upd 160/1250 loss 0.2266 lr 1.95e-04 gn 0.29
+[lora16] upd 170/1250 loss 0.2609 lr 1.94e-04 gn 0.32
+[lora16] upd 180/1250 loss 0.2548 lr 1.93e-04 gn 0.33
+[lora16] upd 190/1250 loss 0.2203 lr 1.92e-04 gn 0.29
+[lora16] upd 200/1250 loss 0.2081 lr 1.91e-04 gn 0.28
+[lora16] upd 210/1250 loss 0.2618 lr 1.90e-04 gn 0.30
+[lora16] upd 220/1250 loss 0.2481 lr 1.89e-04 gn 0.29
+[lora16] upd 230/1250 loss 0.1948 lr 1.88e-04 gn 0.26
+[lora16] upd 240/1250 loss 0.2561 lr 1.87e-04 gn 0.28
+[lora16] upd 250/1250 loss 0.2480 lr 1.85e-04 gn 0.33
+[lora16] upd 260/1250 loss 0.2002 lr 1.84e-04 gn 0.25
+[lora16] upd 270/1250 loss 0.2366 lr 1.83e-04 gn 0.29
+[lora16] upd 280/1250 loss 0.1925 lr 1.81e-04 gn 0.22
+[lora16] upd 290/1250 loss 0.2849 lr 1.80e-04 gn 0.32
+[lora16] upd 300/1250 loss 0.2157 lr 1.78e-04 gn 0.28
+[lora16] upd 310/1250 loss 0.2552 lr 1.76e-04 gn 0.26
+[lora16] checkpoint 312: {'update': 312, 'examples_seen': 9984, 'model_dir_bytes': 40485551, 'trainer_state_bytes': 81088829, 'save_time_s': 0.7312445640563965}
+[lora16] upd 320/1250 loss 0.1871 lr 1.75e-04 gn 0.23
+[lora16] upd 330/1250 loss 0.2186 lr 1.73e-04 gn 0.29
+[lora16] upd 340/1250 loss 0.2088 lr 1.71e-04 gn 0.27
+[lora16] upd 350/1250 loss 0.2292 lr 1.69e-04 gn 0.26
+[lora16] upd 360/1250 loss 0.2417 lr 1.67e-04 gn 0.27
+[lora16] upd 370/1250 loss 0.2475 lr 1.65e-04 gn 0.29
+[lora16] upd 380/1250 loss 0.2123 lr 1.63e-04 gn 0.29
+[lora16] upd 390/1250 loss 0.2022 lr 1.61e-04 gn 0.28
+[lora16] upd 400/1250 loss 0.2122 lr 1.59e-04 gn 0.27
+[lora16] upd 410/1250 loss 0.2133 lr 1.57e-04 gn 0.26
+[lora16] upd 420/1250 loss 0.2484 lr 1.55e-04 gn 0.28
+[lora16] upd 430/1250 loss 0.2091 lr 1.53e-04 gn 0.26
+[lora16] upd 440/1250 loss 0.2040 lr 1.51e-04 gn 0.27
+[lora16] upd 450/1250 loss 0.2292 lr 1.48e-04 gn 0.28
+[lora16] upd 460/1250 loss 0.2314 lr 1.46e-04 gn 0.25
+[lora16] upd 470/1250 loss 0.2151 lr 1.44e-04 gn 0.27
+[lora16] upd 480/1250 loss 0.2237 lr 1.41e-04 gn 0.26
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+  File "/content/drive/MyDrive/task1/src/train.py", line 237, in main
+  File "/content/drive/MyDrive/task1/src/common.py", line 112, in append_jsonl
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/runs/lora16/train_log.jsonl'
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/train.py", line 104, in main
+    data = synthetic_data(total * EFF_BS) if tiny else torch.load(args.data_path, weights_only=False)
+                                                       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 1530, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/data/train_tokenized.pt'
+
+
+===== [2026-10-28 14:45:22] session 20261028-132058 | train lora16 | attempt 1 | RESUME from update 312 =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<03:03,  1.69it/s]Loading weights:  12%|█▏        | 37/311 [00:00<00:03, 70.37it/s]Loading weights:  23%|██▎       | 70/311 [00:00<00:01, 123.35it/s]Loading weights:  32%|███▏      | 100/311 [00:00<00:01, 160.58it/s]Loading weights:  41%|████      | 126/311 [00:01<00:01, 181.43it/s]Loading weights:  53%|█████▎    | 166/311 [00:01<00:00, 226.56it/s]Loading weights:  65%|██████▍   | 202/311 [00:01<00:00, 253.10it/s]Loading weights:  76%|███████▌  | 235/311 [00:01<00:00, 265.02it/s]Loading weights:  85%|████████▌ | 265/311 [00:01<00:00, 248.12it/s]Loading weights:  94%|█████████▍| 292/311 [00:01<00:00, 232.06it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 182.38it/s]
+[lora16] trainable=10,092,544 total=606,142,464 device=cuda
+[lora16] upd 313/1250 loss 0.2389 lr 1.76e-04 gn 0.28
+[lora16] upd 320/1250 loss 0.1871 lr 1.75e-04 gn 0.23
+[lora16] upd 330/1250 loss 0.2185 lr 1.73e-04 gn 0.29
+[lora16] upd 340/1250 loss 0.2088 lr 1.71e-04 gn 0.27
+[lora16] upd 350/1250 loss 0.2291 lr 1.69e-04 gn 0.26
+[lora16] upd 360/1250 loss 0.2418 lr 1.67e-04 gn 0.27
+[lora16] upd 370/1250 loss 0.2475 lr 1.65e-04 gn 0.29
+[lora16] upd 380/1250 loss 0.2119 lr 1.63e-04 gn 0.29
+[lora16] upd 390/1250 loss 0.2028 lr 1.61e-04 gn 0.28
+[lora16] upd 400/1250 loss 0.2116 lr 1.59e-04 gn 0.27
+[lora16] upd 410/1250 loss 0.2142 lr 1.57e-04 gn 0.26
+[lora16] upd 420/1250 loss 0.2484 lr 1.55e-04 gn 0.28
+[lora16] upd 430/1250 loss 0.2095 lr 1.53e-04 gn 0.28
+[lora16] upd 440/1250 loss 0.2043 lr 1.51e-04 gn 0.27
+[lora16] upd 450/1250 loss 0.2294 lr 1.48e-04 gn 0.28
+[lora16] upd 460/1250 loss 0.2315 lr 1.46e-04 gn 0.25
+[lora16] upd 470/1250 loss 0.2152 lr 1.44e-04 gn 0.27
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+  File "/content/drive/MyDrive/task1/src/train.py", line 237, in main
+  File "/content/drive/MyDrive/task1/src/common.py", line 112, in append_jsonl
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/runs/lora16/train_log.jsonl'
+
+===== [2026-10-28 15:06:35] exit code 1 =====
+
+
+===== [2026-10-28 15:08:51] session 20261028-150846 | train lora16 | attempt 1 | RESUME from update 312 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:20,  2.21it/s]Loading weights:  14%|█▍        | 45/311 [00:00<00:02, 106.63it/s]Loading weights:  26%|██▌       | 81/311 [00:00<00:01, 166.03it/s]Loading weights:  38%|███▊      | 119/311 [00:00<00:00, 221.18it/s]Loading weights:  50%|████▉     | 155/311 [00:00<00:00, 257.76it/s]Loading weights:  62%|██████▏   | 192/311 [00:00<00:00, 283.76it/s]Loading weights:  74%|███████▍  | 230/311 [00:01<00:00, 305.69it/s]Loading weights:  86%|████████▌ | 268/311 [00:01<00:00, 325.69it/s]Loading weights:  98%|█████████▊| 304/311 [00:01<00:00, 316.94it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 236.89it/s]
+[lora16] trainable=10,092,544 total=606,142,464 device=cuda
+[lora16] upd 313/1250 loss 0.2389 lr 1.76e-04 gn 0.28
+[lora16] upd 320/1250 loss 0.1872 lr 1.75e-04 gn 0.23
+[lora16] upd 330/1250 loss 0.2185 lr 1.73e-04 gn 0.29
+[lora16] upd 340/1250 loss 0.2088 lr 1.71e-04 gn 0.27
+[lora16] upd 350/1250 loss 0.2292 lr 1.69e-04 gn 0.26
+[lora16] upd 360/1250 loss 0.2417 lr 1.67e-04 gn 0.27
+[lora16] upd 370/1250 loss 0.2475 lr 1.65e-04 gn 0.29
+[lora16] upd 380/1250 loss 0.2122 lr 1.63e-04 gn 0.29
+[lora16] upd 390/1250 loss 0.2021 lr 1.61e-04 gn 0.28
+[lora16] upd 400/1250 loss 0.2120 lr 1.59e-04 gn 0.27
+[lora16] upd 410/1250 loss 0.2132 lr 1.57e-04 gn 0.26
+[lora16] upd 420/1250 loss 0.2485 lr 1.55e-04 gn 0.28
+[lora16] upd 430/1250 loss 0.2089 lr 1.53e-04 gn 0.26
+[lora16] upd 440/1250 loss 0.2039 lr 1.51e-04 gn 0.27
+[lora16] upd 450/1250 loss 0.2291 lr 1.48e-04 gn 0.28
+[lora16] upd 460/1250 loss 0.2317 lr 1.46e-04 gn 0.25
+[lora16] upd 470/1250 loss 0.2157 lr 1.44e-04 gn 0.27
+[lora16] upd 480/1250 loss 0.2233 lr 1.41e-04 gn 0.26
+[lora16] upd 490/1250 loss 0.1661 lr 1.39e-04 gn 0.26
+[lora16] upd 500/1250 loss 0.2109 lr 1.37e-04 gn 0.27
+[lora16] upd 510/1250 loss 0.2256 lr 1.34e-04 gn 0.27
+[lora16] upd 520/1250 loss 0.1906 lr 1.32e-04 gn 0.24
+[lora16] upd 530/1250 loss 0.2017 lr 1.29e-04 gn 0.25
+[lora16] upd 540/1250 loss 0.2318 lr 1.27e-04 gn 0.29
+[lora16] upd 550/1250 loss 0.2025 lr 1.24e-04 gn 0.27
+[lora16] upd 560/1250 loss 0.2289 lr 1.22e-04 gn 0.26
+[lora16] upd 570/1250 loss 0.2062 lr 1.19e-04 gn 0.25
+[lora16] upd 580/1250 loss 0.2033 lr 1.17e-04 gn 0.25
+[lora16] upd 590/1250 loss 0.2162 lr 1.14e-04 gn 0.25
+[lora16] upd 600/1250 loss 0.2009 lr 1.12e-04 gn 0.26
+[lora16] upd 610/1250 loss 0.1809 lr 1.09e-04 gn 0.24
+[lora16] upd 620/1250 loss 0.2532 lr 1.06e-04 gn 0.29
+[lora16] checkpoint 625: {'update': 625, 'examples_seen': 20000, 'model_dir_bytes': 40485551, 'trainer_state_bytes': 81088829, 'save_time_s': 0.7274653911590576}
+[lora16] upd 630/1250 loss 0.1874 lr 1.04e-04 gn 0.26
+[lora16] upd 640/1250 loss 0.1897 lr 1.01e-04 gn 0.25
+[lora16] upd 650/1250 loss 0.1787 lr 9.87e-05 gn 0.26
+[lora16] upd 660/1250 loss 0.2228 lr 9.61e-05 gn 0.25
+[lora16] upd 670/1250 loss 0.1941 lr 9.35e-05 gn 0.24
+[lora16] upd 680/1250 loss 0.2087 lr 9.09e-05 gn 0.31
+[lora16] upd 690/1250 loss 0.2225 lr 8.84e-05 gn 0.28
+[lora16] upd 700/1250 loss 0.2120 lr 8.58e-05 gn 0.26
+[lora16] upd 710/1250 loss 0.1954 lr 8.32e-05 gn 0.29
+[lora16] upd 720/1250 loss 0.2200 lr 8.07e-05 gn 0.29
+[lora16] upd 730/1250 loss 0.2030 lr 7.81e-05 gn 0.26
+[lora16] upd 740/1250 loss 0.2060 lr 7.56e-05 gn 0.24
+[lora16] upd 750/1250 loss 0.1590 lr 7.31e-05 gn 0.25
+[lora16] upd 760/1250 loss 0.2418 lr 7.06e-05 gn 0.27
+[lora16] upd 770/1250 loss 0.1940 lr 6.82e-05 gn 0.28
+[lora16] upd 780/1250 loss 0.2074 lr 6.57e-05 gn 0.27
+[lora16] upd 790/1250 loss 0.1756 lr 6.33e-05 gn 0.25
+[lora16] upd 800/1250 loss 0.1815 lr 6.09e-05 gn 0.25
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+  File "/content/drive/MyDrive/task1/src/train.py", line 237, in main
+  File "/content/drive/MyDrive/task1/src/common.py", line 112, in append_jsonl
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/runs/lora16/train_log.jsonl'
+
+===== [2026-10-28 16:13:14] exit code 1 =====
+
+
+===== [2026-10-28 16:48:25] session 20261028-164820 | train lora16 | attempt 1 | RESUME from update 625 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:30,  2.06it/s]Loading weights:  15%|█▍        | 46/311 [00:00<00:02, 102.83it/s]Loading weights:  26%|██▌       | 81/311 [00:00<00:01, 162.89it/s]Loading weights:  37%|███▋      | 116/311 [00:00<00:00, 211.09it/s]Loading weights:  51%|█████     | 158/311 [00:00<00:00, 264.81it/s]Loading weights:  63%|██████▎   | 196/311 [00:00<00:00, 295.74it/s]Loading weights:  75%|███████▌  | 234/311 [00:01<00:00, 319.46it/s]Loading weights:  87%|████████▋ | 271/311 [00:01<00:00, 331.06it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 239.80it/s]
+[lora16] trainable=10,092,544 total=606,142,464 device=cuda
+[lora16] upd 626/1250 loss 0.1921 lr 1.05e-04 gn 0.27
+[lora16] upd 630/1250 loss 0.1875 lr 1.04e-04 gn 0.26
+[lora16] upd 640/1250 loss 0.1897 lr 1.01e-04 gn 0.25
+[lora16] upd 650/1250 loss 0.1788 lr 9.87e-05 gn 0.26
+[lora16] upd 660/1250 loss 0.2228 lr 9.61e-05 gn 0.25
+[lora16] upd 670/1250 loss 0.1942 lr 9.35e-05 gn 0.24
+[lora16] upd 680/1250 loss 0.2087 lr 9.09e-05 gn 0.31
+[lora16] upd 690/1250 loss 0.2223 lr 8.84e-05 gn 0.28
+[lora16] upd 700/1250 loss 0.2120 lr 8.58e-05 gn 0.26
+[lora16] upd 710/1250 loss 0.1957 lr 8.32e-05 gn 0.29
+[lora16] upd 720/1250 loss 0.2200 lr 8.07e-05 gn 0.29
+[lora16] upd 730/1250 loss 0.2027 lr 7.81e-05 gn 0.25
+[lora16] upd 740/1250 loss 0.2058 lr 7.56e-05 gn 0.24
+[lora16] upd 750/1250 loss 0.1591 lr 7.31e-05 gn 0.25
+[lora16] upd 760/1250 loss 0.2420 lr 7.06e-05 gn 0.27
+[lora16] upd 770/1250 loss 0.1941 lr 6.82e-05 gn 0.28
+[lora16] upd 780/1250 loss 0.2071 lr 6.57e-05 gn 0.27
+[lora16] upd 790/1250 loss 0.1759 lr 6.33e-05 gn 0.25
+[lora16] upd 800/1250 loss 0.1813 lr 6.09e-05 gn 0.25
+[lora16] upd 810/1250 loss 0.2399 lr 5.85e-05 gn 0.32
+[lora16] upd 820/1250 loss 0.1884 lr 5.62e-05 gn 0.28
+[lora16] upd 830/1250 loss 0.1744 lr 5.39e-05 gn 0.23
+[lora16] upd 840/1250 loss 0.2164 lr 5.16e-05 gn 0.29
+[lora16] upd 850/1250 loss 0.2038 lr 4.93e-05 gn 0.25
+[lora16] upd 860/1250 loss 0.1702 lr 4.71e-05 gn 0.24
+[lora16] upd 870/1250 loss 0.1645 lr 4.49e-05 gn 0.25
+[lora16] upd 880/1250 loss 0.1723 lr 4.28e-05 gn 0.25
+[lora16] upd 890/1250 loss 0.1977 lr 4.07e-05 gn 0.26
+[lora16] upd 900/1250 loss 0.1815 lr 3.86e-05 gn 0.26
+[lora16] upd 910/1250 loss 0.1636 lr 3.66e-05 gn 0.24
+[lora16] upd 920/1250 loss 0.2244 lr 3.46e-05 gn 0.28
+[lora16] upd 930/1250 loss 0.1750 lr 3.27e-05 gn 0.23
+[lora16] checkpoint 937: {'update': 937, 'examples_seen': 29984, 'model_dir_bytes': 40485551, 'trainer_state_bytes': 81088829, 'save_time_s': 0.7577786445617676}
+[lora16] upd 940/1250 loss 0.1821 lr 3.08e-05 gn 0.22
+[lora16] upd 950/1250 loss 0.2054 lr 2.89e-05 gn 0.29
+[lora16] upd 960/1250 loss 0.1709 lr 2.71e-05 gn 0.24
+[lora16] upd 970/1250 loss 0.2242 lr 2.54e-05 gn 0.27
+[lora16] upd 980/1250 loss 0.1970 lr 2.37e-05 gn 0.26
+[lora16] upd 990/1250 loss 0.1883 lr 2.20e-05 gn 0.26
+[lora16] upd 1000/1250 loss 0.2209 lr 2.04e-05 gn 0.27
+[lora16] upd 1010/1250 loss 0.2007 lr 1.89e-05 gn 0.26
+[lora16] upd 1020/1250 loss 0.1602 lr 1.74e-05 gn 0.25
+[lora16] upd 1030/1250 loss 0.2171 lr 1.60e-05 gn 0.29
+[lora16] upd 1040/1250 loss 0.1891 lr 1.46e-05 gn 0.26
+[lora16] upd 1050/1250 loss 0.2315 lr 1.33e-05 gn 0.28
+[lora16] upd 1060/1250 loss 0.1693 lr 1.20e-05 gn 0.22
+[lora16] upd 1070/1250 loss 0.2395 lr 1.08e-05 gn 0.30
+[lora16] upd 1080/1250 loss 0.1768 lr 9.66e-06 gn 0.25
+[lora16] upd 1090/1250 loss 0.2036 lr 8.58e-06 gn 0.27
+[lora16] upd 1100/1250 loss 0.2124 lr 7.56e-06 gn 0.28
+[lora16] upd 1110/1250 loss 0.1821 lr 6.60e-06 gn 0.26
+[lora16] upd 1120/1250 loss 0.1709 lr 5.71e-06 gn 0.24
+[lora16] upd 1130/1250 loss 0.1777 lr 4.88e-06 gn 0.24
+[lora16] upd 1140/1250 loss 0.1900 lr 4.11e-06 gn 0.22
+[lora16] upd 1150/1250 loss 0.1714 lr 3.41e-06 gn 0.25
+[lora16] upd 1160/1250 loss 0.2228 lr 2.77e-06 gn 0.26
+[lora16] upd 1170/1250 loss 0.1643 lr 2.20e-06 gn 0.24
+[lora16] upd 1180/1250 loss 0.1885 lr 1.69e-06 gn 0.26
+[lora16] upd 1190/1250 loss 0.2337 lr 1.25e-06 gn 0.25
+[lora16] upd 1200/1250 loss 0.1794 lr 8.73e-07 gn 0.26
+[lora16] upd 1210/1250 loss 0.1720 lr 5.64e-07 gn 0.27
+[lora16] upd 1220/1250 loss 0.1800 lr 3.23e-07 gn 0.26
+[lora16] upd 1230/1250 loss 0.1911 lr 1.48e-07 gn 0.23
+[lora16] upd 1240/1250 loss 0.2179 lr 4.06e-08 gn 0.28
+[lora16] upd 1250/1250 loss 0.1780 lr 3.36e-10 gn 0.26
+[lora16] checkpoint 1250: {'update': 1250, 'examples_seen': 40000, 'model_dir_bytes': 40485551, 'trainer_state_bytes': 81088957, 'save_time_s': 0.7924981117248535}
+done: {'method': 'lora16', 'label': 'LoRA-16', 'lr': 0.0002, 'l2sp_lambda': 0.0, 'trainable_params': 10092544, 'total_params_in_model': 606142464, 'train_time_s': 9431.183828830719, 'updates_done': 1250, 'skipped_updates': 0, 'peak_gpu_mem_allocated_bytes': 5749259776, 'peak_gpu_mem_reserved_bytes': 6612320256, 'overhead': {}, 'device': 'cuda', 'amp_fp16': True}
+
+===== [2026-10-28 18:06:58] exit code 0 =====

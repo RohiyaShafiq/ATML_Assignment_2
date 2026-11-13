@@ -1,0 +1,231 @@
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+    main()
+    ~~~~^^
+  File "/content/drive/MyDrive/task1/src/train.py", line 104, in main
+    data = synthetic_data(total * EFF_BS) if tiny else torch.load(args.data_path, weights_only=False)
+                                                       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 1530, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 795, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/usr/local/lib/python3.13/dist-packages/torch/serialization.py", line 776, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ~~~~^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/data/train_tokenized.pt'
+
+
+===== [2026-10-28 18:45:28] session 20261028-164820 | train oplora | attempt 1 | FRESH start =====
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:17,  2.26it/s]Loading weights:  10%|█         | 32/311 [00:00<00:03, 77.31it/s]Loading weights:  19%|█▉        | 59/311 [00:00<00:02, 122.98it/s]Loading weights:  30%|██▉       | 92/311 [00:00<00:01, 176.08it/s]Loading weights:  40%|████      | 125/311 [00:00<00:00, 213.86it/s]Loading weights:  51%|█████▏    | 160/311 [00:00<00:00, 248.63it/s]Loading weights:  62%|██████▏   | 192/311 [00:01<00:00, 265.88it/s]Loading weights:  73%|███████▎  | 226/311 [00:01<00:00, 283.28it/s]Loading weights:  85%|████████▌ | 265/311 [00:01<00:00, 311.32it/s]Loading weights:  97%|█████████▋| 302/311 [00:01<00:00, 322.40it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 219.95it/s]
+[oplora] trainable=10,092,544 total=606,142,464 device=cuda
+[oplora] upd 1/1250 loss 1.0286 lr 5.26e-06 gn 3.47
+[oplora] upd 10/1250 loss 0.4840 lr 5.26e-05 gn 1.04
+[oplora] upd 20/1250 loss 0.3622 lr 1.05e-04 gn 0.51
+[oplora] upd 30/1250 loss 0.3021 lr 1.58e-04 gn 0.38
+[oplora] upd 40/1250 loss 0.3004 lr 2.00e-04 gn 0.35
+[oplora] upd 50/1250 loss 0.2541 lr 2.00e-04 gn 0.28
+[oplora] upd 60/1250 loss 0.2725 lr 2.00e-04 gn 0.29
+[oplora] upd 70/1250 loss 0.2722 lr 2.00e-04 gn 0.32
+[oplora] upd 80/1250 loss 0.2561 lr 1.99e-04 gn 0.31
+[oplora] upd 90/1250 loss 0.2519 lr 1.99e-04 gn 0.30
+[oplora] upd 100/1250 loss 0.2580 lr 1.99e-04 gn 0.29
+[oplora] upd 110/1250 loss 0.2657 lr 1.98e-04 gn 0.31
+[oplora] upd 120/1250 loss 0.2302 lr 1.98e-04 gn 0.27
+[oplora] upd 130/1250 loss 0.2343 lr 1.97e-04 gn 0.27
+[oplora] upd 140/1250 loss 0.2437 lr 1.97e-04 gn 0.32
+[oplora] upd 150/1250 loss 0.2429 lr 1.96e-04 gn 0.28
+[oplora] upd 160/1250 loss 0.2281 lr 1.95e-04 gn 0.27
+[oplora] upd 170/1250 loss 0.2631 lr 1.94e-04 gn 0.27
+[oplora] upd 180/1250 loss 0.2558 lr 1.93e-04 gn 0.31
+[oplora] upd 190/1250 loss 0.2192 lr 1.92e-04 gn 0.29
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+  File "/content/drive/MyDrive/task1/src/train.py", line 237, in main
+  File "/content/drive/MyDrive/task1/src/common.py", line 112, in append_jsonl
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/runs/oplora/train_log.jsonl'
+
+===== [2026-10-28 19:18:53] exit code 1 =====
+
+
+===== [2026-10-29 07:31:54] session 20261029-073148 | train oplora | attempt 1 | FRESH start =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:13,  2.32it/s]Loading weights:  15%|█▌        | 48/311 [00:00<00:02, 118.06it/s]Loading weights:  27%|██▋       | 83/311 [00:00<00:01, 178.44it/s]Loading weights:  38%|███▊      | 119/311 [00:00<00:00, 227.18it/s]Loading weights:  51%|█████     | 158/311 [00:00<00:00, 266.23it/s]Loading weights:  62%|██████▏   | 192/311 [00:00<00:00, 281.07it/s]Loading weights:  76%|███████▌  | 235/311 [00:01<00:00, 315.58it/s]Loading weights:  87%|████████▋ | 271/311 [00:01<00:00, 320.56it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 247.56it/s]
+[oplora] trainable=10,092,544 total=606,142,464 device=cuda
+[oplora] upd 1/1250 loss 1.0286 lr 5.26e-06 gn 3.47
+[oplora] upd 10/1250 loss 0.4841 lr 5.26e-05 gn 1.04
+[oplora] upd 20/1250 loss 0.3622 lr 1.05e-04 gn 0.51
+[oplora] upd 30/1250 loss 0.3021 lr 1.58e-04 gn 0.38
+[oplora] upd 40/1250 loss 0.3002 lr 2.00e-04 gn 0.35
+[oplora] upd 50/1250 loss 0.2545 lr 2.00e-04 gn 0.28
+[oplora] upd 60/1250 loss 0.2727 lr 2.00e-04 gn 0.28
+[oplora] upd 70/1250 loss 0.2720 lr 2.00e-04 gn 0.31
+[oplora] upd 80/1250 loss 0.2567 lr 1.99e-04 gn 0.30
+[oplora] upd 90/1250 loss 0.2520 lr 1.99e-04 gn 0.30
+[oplora] upd 100/1250 loss 0.2588 lr 1.99e-04 gn 0.29
+[oplora] upd 110/1250 loss 0.2646 lr 1.98e-04 gn 0.31
+[oplora] upd 120/1250 loss 0.2301 lr 1.98e-04 gn 0.29
+[oplora] upd 130/1250 loss 0.2356 lr 1.97e-04 gn 0.29
+[oplora] upd 140/1250 loss 0.2430 lr 1.97e-04 gn 0.33
+[oplora] upd 150/1250 loss 0.2441 lr 1.96e-04 gn 0.28
+[oplora] upd 160/1250 loss 0.2288 lr 1.95e-04 gn 0.27
+[oplora] upd 170/1250 loss 0.2622 lr 1.94e-04 gn 0.29
+[oplora] upd 180/1250 loss 0.2561 lr 1.93e-04 gn 0.30
+[oplora] upd 190/1250 loss 0.2201 lr 1.92e-04 gn 0.30
+[oplora] upd 200/1250 loss 0.2096 lr 1.91e-04 gn 0.28
+[oplora] upd 210/1250 loss 0.2627 lr 1.90e-04 gn 0.29
+[oplora] upd 220/1250 loss 0.2506 lr 1.89e-04 gn 0.29
+[oplora] upd 230/1250 loss 0.1955 lr 1.88e-04 gn 0.25
+[oplora] upd 240/1250 loss 0.2576 lr 1.87e-04 gn 0.27
+[oplora] upd 250/1250 loss 0.2483 lr 1.85e-04 gn 0.31
+[oplora] upd 260/1250 loss 0.2020 lr 1.84e-04 gn 0.24
+[oplora] upd 270/1250 loss 0.2379 lr 1.83e-04 gn 0.27
+[oplora] upd 280/1250 loss 0.1930 lr 1.81e-04 gn 0.22
+[oplora] upd 290/1250 loss 0.2866 lr 1.80e-04 gn 0.31
+[oplora] upd 300/1250 loss 0.2178 lr 1.78e-04 gn 0.27
+[oplora] upd 310/1250 loss 0.2559 lr 1.76e-04 gn 0.26
+[oplora] checkpoint 312: {'update': 312, 'examples_seen': 9984, 'export_time_s': 0.33815503120422363, 'export_bytes': 40490107, 'constraint_check': {'max_rel_UkT_dW': 0.00013494009908754379, 'max_rel_dW_Vk': 0.00019316046382300556}, 'model_dir_bytes': 80975658, 'trainer_state_bytes': 81088829, 'save_time_s': 1.1374425888061523}
+[oplora] upd 320/1250 loss 0.1883 lr 1.75e-04 gn 0.22
+[oplora] upd 330/1250 loss 0.2194 lr 1.73e-04 gn 0.28
+[oplora] upd 340/1250 loss 0.2094 lr 1.71e-04 gn 0.25
+[oplora] upd 350/1250 loss 0.2297 lr 1.69e-04 gn 0.25
+[oplora] upd 360/1250 loss 0.2419 lr 1.67e-04 gn 0.25
+[oplora] upd 370/1250 loss 0.2495 lr 1.65e-04 gn 0.28
+[oplora] upd 380/1250 loss 0.2137 lr 1.63e-04 gn 0.28
+[oplora] upd 390/1250 loss 0.2040 lr 1.61e-04 gn 0.27
+[oplora] upd 400/1250 loss 0.2131 lr 1.59e-04 gn 0.26
+[oplora] upd 410/1250 loss 0.2130 lr 1.57e-04 gn 0.25
+[oplora] upd 420/1250 loss 0.2503 lr 1.55e-04 gn 0.27
+[oplora] upd 430/1250 loss 0.2100 lr 1.53e-04 gn 0.25
+[oplora] upd 440/1250 loss 0.2058 lr 1.51e-04 gn 0.26
+[oplora] upd 450/1250 loss 0.2317 lr 1.48e-04 gn 0.27
+[oplora] upd 460/1250 loss 0.2340 lr 1.46e-04 gn 0.24
+[oplora] upd 470/1250 loss 0.2169 lr 1.44e-04 gn 0.27
+[oplora] upd 480/1250 loss 0.2247 lr 1.41e-04 gn 0.25
+[oplora] upd 490/1250 loss 0.1663 lr 1.39e-04 gn 0.23
+[oplora] upd 500/1250 loss 0.2128 lr 1.37e-04 gn 0.25
+[oplora] upd 510/1250 loss 0.2269 lr 1.34e-04 gn 0.26
+[oplora] upd 520/1250 loss 0.1911 lr 1.32e-04 gn 0.23
+[oplora] upd 530/1250 loss 0.2019 lr 1.29e-04 gn 0.24
+[oplora] upd 540/1250 loss 0.2322 lr 1.27e-04 gn 0.28
+[oplora] upd 550/1250 loss 0.2032 lr 1.24e-04 gn 0.25
+[oplora] upd 560/1250 loss 0.2293 lr 1.22e-04 gn 0.24
+[oplora] upd 570/1250 loss 0.2085 lr 1.19e-04 gn 0.24
+[oplora] upd 580/1250 loss 0.2046 lr 1.17e-04 gn 0.24
+Traceback (most recent call last):
+  File "/content/drive/MyDrive/task1/src/train.py", line 282, in <module>
+  File "/content/drive/MyDrive/task1/src/train.py", line 237, in main
+  File "/content/drive/MyDrive/task1/src/common.py", line 112, in append_jsonl
+FileNotFoundError: [Errno 2] No such file or directory: '/content/artifacts/runs/oplora/train_log.jsonl'
+
+===== [2026-10-29 09:06:00] exit code 1 =====
+
+
+===== [2026-10-29 10:43:12] session 20261029-104307 | train oplora | attempt 1 | RESUME from update 312 =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<02:28,  2.08it/s]Loading weights:  18%|█▊        | 56/311 [00:00<00:02, 126.81it/s]Loading weights:  30%|██▉       | 92/311 [00:00<00:01, 178.43it/s]Loading weights:  42%|████▏     | 131/311 [00:00<00:00, 224.06it/s]Loading weights:  54%|█████▍    | 169/311 [00:00<00:00, 260.66it/s]Loading weights:  66%|██████▌   | 204/311 [00:01<00:00, 284.24it/s]Loading weights:  77%|███████▋  | 240/311 [00:01<00:00, 300.80it/s]Loading weights:  88%|████████▊ | 275/311 [00:01<00:00, 304.46it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 235.64it/s]
+[oplora] trainable=10,092,544 total=606,142,464 device=cuda
+[oplora] upd 313/1250 loss 0.2389 lr 1.76e-04 gn 0.26
+[oplora] upd 320/1250 loss 0.1883 lr 1.75e-04 gn 0.22
+[oplora] upd 330/1250 loss 0.2195 lr 1.73e-04 gn 0.28
+[oplora] upd 340/1250 loss 0.2095 lr 1.71e-04 gn 0.25
+[oplora] upd 350/1250 loss 0.2297 lr 1.69e-04 gn 0.24
+[oplora] upd 360/1250 loss 0.2417 lr 1.67e-04 gn 0.25
+[oplora] upd 370/1250 loss 0.2497 lr 1.65e-04 gn 0.28
+[oplora] upd 380/1250 loss 0.2140 lr 1.63e-04 gn 0.28
+[oplora] upd 390/1250 loss 0.2040 lr 1.61e-04 gn 0.27
+[oplora] upd 400/1250 loss 0.2134 lr 1.59e-04 gn 0.27
+[oplora] upd 410/1250 loss 0.2131 lr 1.57e-04 gn 0.25
+[oplora] upd 420/1250 loss 0.2501 lr 1.55e-04 gn 0.27
+[oplora] upd 430/1250 loss 0.2103 lr 1.53e-04 gn 0.25
+[oplora] upd 440/1250 loss 0.2056 lr 1.51e-04 gn 0.26
+[oplora] upd 450/1250 loss 0.2315 lr 1.48e-04 gn 0.27
+[oplora] upd 460/1250 loss 0.2343 lr 1.46e-04 gn 0.24
+[oplora] upd 470/1250 loss 0.2168 lr 1.44e-04 gn 0.26
+[oplora] upd 480/1250 loss 0.2241 lr 1.41e-04 gn 0.25
+[oplora] upd 490/1250 loss 0.1666 lr 1.39e-04 gn 0.23
+[oplora] upd 500/1250 loss 0.2127 lr 1.37e-04 gn 0.25
+[oplora] upd 510/1250 loss 0.2268 lr 1.34e-04 gn 0.25
+[oplora] upd 520/1250 loss 0.1914 lr 1.32e-04 gn 0.23
+[oplora] upd 530/1250 loss 0.2023 lr 1.29e-04 gn 0.24
+[oplora] upd 540/1250 loss 0.2327 lr 1.27e-04 gn 0.28
+[oplora] upd 550/1250 loss 0.2030 lr 1.24e-04 gn 0.25
+[oplora] upd 560/1250 loss 0.2297 lr 1.22e-04 gn 0.24
+[oplora] upd 570/1250 loss 0.2088 lr 1.19e-04 gn 0.25
+[oplora] upd 580/1250 loss 0.2041 lr 1.17e-04 gn 0.24
+[oplora] upd 590/1250 loss 0.2167 lr 1.14e-04 gn 0.24
+[oplora] upd 600/1250 loss 0.2022 lr 1.12e-04 gn 0.25
+[oplora] upd 610/1250 loss 0.1810 lr 1.09e-04 gn 0.23
+[oplora] upd 620/1250 loss 0.2540 lr 1.06e-04 gn 0.28
+[oplora] checkpoint 625: {'update': 625, 'examples_seen': 20000, 'export_time_s': 0.3467435836791992, 'export_bytes': 40490107, 'constraint_check': {'max_rel_UkT_dW': 0.00012470532965380698, 'max_rel_dW_Vk': 0.0001890319981612265}, 'model_dir_bytes': 80975658, 'trainer_state_bytes': 81088829, 'save_time_s': 1.1947200298309326}
+[oplora] upd 630/1250 loss 0.1886 lr 1.04e-04 gn 0.32
+[oplora] upd 640/1250 loss 0.1909 lr 1.01e-04 gn 0.23
+[oplora] upd 650/1250 loss 0.1806 lr 9.87e-05 gn 0.25
+[oplora] upd 660/1250 loss 0.2238 lr 9.61e-05 gn 0.24
+[oplora] upd 670/1250 loss 0.1942 lr 9.35e-05 gn 0.22
+[oplora] upd 680/1250 loss 0.2117 lr 9.09e-05 gn 0.30
+[oplora] upd 690/1250 loss 0.2242 lr 8.84e-05 gn 0.27
+[oplora] upd 700/1250 loss 0.2145 lr 8.58e-05 gn 0.25
+[oplora] upd 710/1250 loss 0.1978 lr 8.32e-05 gn 0.28
+[oplora] upd 720/1250 loss 0.2215 lr 8.07e-05 gn 0.27
+[oplora] upd 730/1250 loss 0.2046 lr 7.81e-05 gn 0.24
+[oplora] upd 740/1250 loss 0.2063 lr 7.56e-05 gn 0.23
+[oplora] upd 750/1250 loss 0.1597 lr 7.31e-05 gn 0.23
+[oplora] upd 760/1250 loss 0.2429 lr 7.06e-05 gn 0.26
+[oplora] upd 770/1250 loss 0.1951 lr 6.82e-05 gn 0.27
+[oplora] upd 780/1250 loss 0.2082 lr 6.57e-05 gn 0.26
+[oplora] upd 790/1250 loss 0.1771 lr 6.33e-05 gn 0.24
+[oplora] upd 800/1250 loss 0.1830 lr 6.09e-05 gn 0.24
+[oplora] upd 810/1250 loss 0.2409 lr 5.85e-05 gn 0.31
+[oplora] upd 820/1250 loss 0.1900 lr 5.62e-05 gn 0.27
+[oplora] upd 830/1250 loss 0.1754 lr 5.39e-05 gn 0.22
+[oplora] upd 840/1250 loss 0.2161 lr 5.16e-05 gn 0.28
+[oplora] upd 850/1250 loss 0.2051 lr 4.93e-05 gn 0.23
+[oplora] upd 860/1250 loss 0.1724 lr 4.71e-05 gn 0.23
+[oplora] upd 870/1250 loss 0.1653 lr 4.49e-05 gn 0.23
+[oplora] upd 880/1250 loss 0.1732 lr 4.28e-05 gn 0.24
+[oplora] upd 890/1250 loss 0.1989 lr 4.07e-05 gn 0.24
+[oplora] upd 900/1250 loss 0.1827 lr 3.86e-05 gn 0.24
+[oplora] upd 910/1250 loss 0.1644 lr 3.66e-05 gn 0.23
+[oplora] upd 920/1250 loss 0.2264 lr 3.46e-05 gn 0.27
+[oplora] upd 930/1250 loss 0.1752 lr 3.27e-05 gn 0.22
+[oplora] checkpoint 937: {'update': 937, 'examples_seen': 29984, 'export_time_s': 0.36979222297668457, 'export_bytes': 40490107, 'constraint_check': {'max_rel_UkT_dW': 0.00012205144594190642, 'max_rel_dW_Vk': 0.00018788306624628603}, 'model_dir_bytes': 80975658, 'trainer_state_bytes': 81089149, 'save_time_s': 1.1882414817810059}
+[oplora] upd 940/1250 loss 0.1836 lr 3.08e-05 gn 0.21
+[oplora] upd 950/1250 loss 0.2074 lr 2.89e-05 gn 0.28
+[oplora] upd 960/1250 loss 0.1714 lr 2.71e-05 gn 0.22
+[oplora] upd 970/1250 loss 0.2259 lr 2.54e-05 gn 0.25
+[oplora] upd 980/1250 loss 0.1969 lr 2.37e-05 gn 0.25
+[oplora] upd 990/1250 loss 0.1900 lr 2.20e-05 gn 0.25
+[oplora] upd 1000/1250 loss 0.2216 lr 2.04e-05 gn 0.25
+[oplora] upd 1010/1250 loss 0.2016 lr 1.89e-05 gn 0.24
+[oplora] upd 1020/1250 loss 0.1610 lr 1.74e-05 gn 0.24
+[oplora] upd 1030/1250 loss 0.2185 lr 1.60e-05 gn 0.27
+[oplora] upd 1040/1250 loss 0.1891 lr 1.46e-05 gn 0.24
+[oplora] upd 1050/1250 loss 0.2319 lr 1.33e-05 gn 0.27
+[oplora] upd 1060/1250 loss 0.1692 lr 1.20e-05 gn 0.22
+[oplora] upd 1070/1250 loss 0.2401 lr 1.08e-05 gn 0.28
+[oplora] upd 1080/1250 loss 0.1776 lr 9.66e-06 gn 0.23
+[oplora] upd 1090/1250 loss 0.2047 lr 8.58e-06 gn 0.25
+[oplora] upd 1100/1250 loss 0.2141 lr 7.56e-06 gn 0.27
+[oplora] upd 1110/1250 loss 0.1836 lr 6.60e-06 gn 0.25
+[oplora] upd 1120/1250 loss 0.1720 lr 5.71e-06 gn 0.24
+[oplora] upd 1130/1250 loss 0.1783 lr 4.88e-06 gn 0.23
+[oplora] upd 1140/1250 loss 0.1902 lr 4.11e-06 gn 0.21
+[oplora] upd 1150/1250 loss 0.1735 lr 3.41e-06 gn 0.25
+[oplora] upd 1160/1250 loss 0.2224 lr 2.77e-06 gn 0.24
+[oplora] upd 1170/1250 loss 0.1667 lr 2.20e-06 gn 0.22
+[oplora] upd 1180/1250 loss 0.1893 lr 1.69e-06 gn 0.24
+[oplora] upd 1190/1250 loss 0.2338 lr 1.25e-06 gn 0.23
+[oplora] upd 1200/1250 loss 0.1792 lr 8.73e-07 gn 0.24
+[oplora] upd 1210/1250 loss 0.1723 lr 5.64e-07 gn 0.25
+[oplora] upd 1220/1250 loss 0.1805 lr 3.23e-07 gn 0.25
+[oplora] upd 1230/1250 loss 0.1920 lr 1.48e-07 gn 0.22
+[oplora] upd 1240/1250 loss 0.2183 lr 4.06e-08 gn 0.26
+[oplora] upd 1250/1250 loss 0.1795 lr 3.36e-10 gn 0.24
+[oplora] checkpoint 1250: {'update': 1250, 'examples_seen': 40000, 'export_time_s': 0.3563816547393799, 'export_bytes': 40490107, 'constraint_check': {'max_rel_UkT_dW': 0.00012246420374140143, 'max_rel_dW_Vk': 0.00018861808348447084}, 'model_dir_bytes': 80975658, 'trainer_state_bytes': 81089277, 'save_time_s': 1.1140518188476562}
+done: {'method': 'oplora', 'label': 'OPLoRA-16', 'lr': 0.0002, 'l2sp_lambda': 0.0, 'trainable_params': 10092544, 'total_params_in_model': 606142464, 'train_time_s': 12687.088661432266, 'updates_done': 1250, 'skipped_updates': 0, 'peak_gpu_mem_allocated_bytes': 6301170688, 'peak_gpu_mem_reserved_bytes': 6910115840, 'overhead': {'basis_preprocess_s': 'loaded_from_disk', 'basis_storage_bytes': 322961408}, 'device': 'cuda', 'amp_fp16': True}
+
+===== [2026-10-29 13:25:53] exit code 0 =====

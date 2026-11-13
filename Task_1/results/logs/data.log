@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 166080.46 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 247164.68 examples/s]
+Generating train split:   0%|          | 0/39905 [00:00<?, ? examples/s]Generating train split:  55%|█████▌    | 22000/39905 [00:00<00:00, 211679.00 examples/s]Generating train split: 100%|██████████| 39905/39905 [00:00<00:00, 202642.64 examples/s]
+Generating test split:   0%|          | 0/10003 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 10003/10003 [00:00<00:00, 212506.70 examples/s]
+Generating validation split:   0%|          | 0/10042 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 10042/10042 [00:00<00:00, 221659.00 examples/s]
+saved probe set -> /content/artifacts/data/probe_set.json
+Generating train split:   0%|          | 0/395000 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 395000/395000 [00:08<00:00, 45620.60 examples/s]Generating train split: 100%|██████████| 395000/395000 [00:08<00:00, 45449.66 examples/s]
+train data: {'selected': 40000, 'scanned': 40002, 'excluded': {'too_long': 2}}

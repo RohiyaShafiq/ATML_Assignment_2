@@ -1,0 +1,177 @@
+[2026-10-28 13:21:03] === pipeline session 20261028-132058 started | GPU: Tesla T4
+[2026-10-28 13:21:03] [skip] data (already finished)
+[2026-10-28 13:21:03] tests | attempt 1
+[2026-10-28 13:21:26] eval baseline | attempt 1
+[2026-10-28 14:06:02] [skip] train_lora4 (already finished)
+[2026-10-28 14:06:02] eval lora4_final | attempt 1
+[2026-10-28 14:45:22] train lora16 | attempt 1 | RESUME from update 312
+[2026-10-28 15:08:50] === pipeline session 20261028-150846 started | GPU: Tesla T4
+[2026-10-28 15:08:51] [skip] data (already finished)
+[2026-10-28 15:08:51] [skip] tests (already finished)
+[2026-10-28 15:08:51] [skip] eval_baseline (already finished)
+[2026-10-28 15:08:51] [skip] train_lora4 (already finished)
+[2026-10-28 15:08:51] [skip] eval_lora4_final (already finished)
+[2026-10-28 15:08:51] train lora16 | attempt 1 | RESUME from update 312
+[2026-10-28 16:48:25] === pipeline session 20261028-164820 started | GPU: Tesla T4
+[2026-10-28 16:48:25] [skip] data (already finished)
+[2026-10-28 16:48:25] [skip] tests (already finished)
+[2026-10-28 16:48:25] [skip] eval_baseline (already finished)
+[2026-10-28 16:48:25] [skip] train_lora4 (already finished)
+[2026-10-28 16:48:25] [skip] eval_lora4_final (already finished)
+[2026-10-28 16:48:25] train lora16 | attempt 1 | RESUME from update 625
+[2026-10-28 18:06:58] train lora16 finished
+[2026-10-28 18:06:58] eval lora16_final | attempt 1
+[2026-10-28 18:45:28] train oplora | attempt 1 | FRESH start
+[2026-10-29 07:31:53] === pipeline session 20261029-073148 started | GPU: Tesla T4
+[2026-10-29 07:31:54] [skip] data (already finished)
+[2026-10-29 07:31:54] [skip] tests (already finished)
+[2026-10-29 07:31:54] [skip] eval_baseline (already finished)
+[2026-10-29 07:31:54] [skip] train_lora4 (already finished)
+[2026-10-29 07:31:54] [skip] eval_lora4_final (already finished)
+[2026-10-29 07:31:54] [skip] train_lora16 (already finished)
+[2026-10-29 07:31:54] [skip] eval_lora16_final (already finished)
+[2026-10-29 07:31:54] train oplora | attempt 1 | FRESH start
+[2026-10-29 10:43:11] === pipeline session 20261029-104307 started | GPU: Tesla T4
+[2026-10-29 10:43:12] [skip] data (already finished)
+[2026-10-29 10:43:12] [skip] tests (already finished)
+[2026-10-29 10:43:12] [skip] eval_baseline (already finished)
+[2026-10-29 10:43:12] [skip] train_lora4 (already finished)
+[2026-10-29 10:43:12] [skip] eval_lora4_final (already finished)
+[2026-10-29 10:43:12] [skip] train_lora16 (already finished)
+[2026-10-29 10:43:12] [skip] eval_lora16_final (already finished)
+[2026-10-29 10:43:12] train oplora | attempt 1 | RESUME from update 312
+[2026-10-29 13:25:53] train oplora finished
+[2026-10-29 13:25:53] merge_check | attempt 1
+[2026-10-29 13:26:31] eval oplora_final | attempt 1
+[2026-10-29 15:43:33] === pipeline session 20261029-154328 started | GPU: Tesla T4
+[2026-10-29 15:43:33] [skip] data (already finished)
+[2026-10-29 15:43:33] [skip] tests (already finished)
+[2026-10-29 15:43:33] [skip] eval_baseline (already finished)
+[2026-10-29 15:43:33] [skip] train_lora4 (already finished)
+[2026-10-29 15:43:33] [skip] eval_lora4_final (already finished)
+[2026-10-29 15:43:33] [skip] train_lora16 (already finished)
+[2026-10-29 15:43:33] [skip] eval_lora16_final (already finished)
+[2026-10-29 15:43:33] [skip] train_oplora (already finished)
+[2026-10-29 15:43:33] [skip] merge_check (already finished)
+[2026-10-29 15:43:33] eval oplora_final | attempt 1
+[2026-10-29 16:20:59] train fullft | attempt 1 | FRESH start
+[2026-10-29 16:24:18] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:24:23] train fullft | attempt 2 | FRESH start
+[2026-10-29 16:27:28] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:27:33] train fullft | attempt 3 | FRESH start
+[2026-10-29 16:30:38] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:30:43] !!! train_fullft FAILED after retries - fix the cause, then just start the pipeline again
+[2026-10-29 16:32:48] === pipeline session 20261029-163246 started | GPU: Tesla T4
+[2026-10-29 16:32:48] [skip] data (already finished)
+[2026-10-29 16:32:48] [skip] tests (already finished)
+[2026-10-29 16:32:48] [skip] eval_baseline (already finished)
+[2026-10-29 16:32:48] [skip] train_lora4 (already finished)
+[2026-10-29 16:32:48] [skip] eval_lora4_final (already finished)
+[2026-10-29 16:32:48] [skip] train_lora16 (already finished)
+[2026-10-29 16:32:48] [skip] eval_lora16_final (already finished)
+[2026-10-29 16:32:48] [skip] train_oplora (already finished)
+[2026-10-29 16:32:48] [skip] merge_check (already finished)
+[2026-10-29 16:32:48] [skip] eval_oplora_final (already finished)
+[2026-10-29 16:32:48] train fullft | attempt 1 | FRESH start
+[2026-10-29 16:35:53] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:35:58] train fullft | attempt 2 | FRESH start
+[2026-10-29 16:39:02] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:39:07] train fullft | attempt 3 | FRESH start
+[2026-10-29 16:42:12] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-29 16:42:17] !!! train_fullft FAILED after retries - fix the cause, then just start the pipeline again
+[2026-10-31 07:07:17] === pipeline session 20261031-070712 started | GPU: Tesla T4
+[2026-10-31 07:07:17] [skip] data (already finished)
+[2026-10-31 07:07:17] [skip] tests (already finished)
+[2026-10-31 07:07:17] [skip] eval_baseline (already finished)
+[2026-10-31 07:07:17] [skip] train_lora4 (already finished)
+[2026-10-31 07:07:17] [skip] eval_lora4_final (already finished)
+[2026-10-31 07:07:17] [skip] train_lora16 (already finished)
+[2026-10-31 07:07:17] [skip] eval_lora16_final (already finished)
+[2026-10-31 07:07:17] [skip] train_oplora (already finished)
+[2026-10-31 07:07:17] [skip] merge_check (already finished)
+[2026-10-31 07:07:17] [skip] eval_oplora_final (already finished)
+[2026-10-31 07:07:17] train fullft | attempt 1 | FRESH start
+[2026-10-31 07:10:52] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:10:57] train fullft | attempt 2 | FRESH start
+[2026-10-31 07:14:07] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:14:12] train fullft | attempt 3 | FRESH start
+[2026-10-31 07:17:20] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:17:25] !!! train_fullft FAILED after retries - fix the cause, then just start the pipeline again
+[2026-10-31 07:23:44] === pipeline session 20261031-072342 started | GPU: Tesla T4
+[2026-10-31 07:23:44] [skip] data (already finished)
+[2026-10-31 07:23:44] [skip] tests (already finished)
+[2026-10-31 07:23:44] [skip] eval_baseline (already finished)
+[2026-10-31 07:23:44] [skip] train_lora4 (already finished)
+[2026-10-31 07:23:44] [skip] eval_lora4_final (already finished)
+[2026-10-31 07:23:44] [skip] train_lora16 (already finished)
+[2026-10-31 07:23:44] [skip] eval_lora16_final (already finished)
+[2026-10-31 07:23:44] [skip] train_oplora (already finished)
+[2026-10-31 07:23:44] [skip] merge_check (already finished)
+[2026-10-31 07:23:44] [skip] eval_oplora_final (already finished)
+[2026-10-31 07:23:44] train fullft | attempt 1 | FRESH start
+[2026-10-31 07:26:50] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:26:55] train fullft | attempt 2 | FRESH start
+[2026-10-31 07:30:09] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:30:14] train fullft | attempt 3 | FRESH start
+[2026-10-31 07:33:23] train fullft failed (rc=1); newest valid checkpoint will be used for the retry
+[2026-10-31 07:33:28] !!! train_fullft FAILED after retries - fix the cause, then just start the pipeline again
+[2026-10-31 15:46:26] === pipeline session 20261031-154622 started | GPU: Tesla T4
+[2026-10-31 15:46:28] [skip] data (already finished)
+[2026-10-31 15:46:28] [skip] tests (already finished)
+[2026-10-31 15:46:28] [skip] eval_baseline (already finished)
+[2026-10-31 15:46:28] [skip] train_lora4 (already finished)
+[2026-10-31 15:46:28] [skip] eval_lora4_final (already finished)
+[2026-10-31 15:46:28] [skip] train_lora16 (already finished)
+[2026-10-31 15:46:28] [skip] eval_lora16_final (already finished)
+[2026-10-31 15:46:28] [skip] train_oplora (already finished)
+[2026-10-31 15:46:28] [skip] merge_check (already finished)
+[2026-10-31 15:46:28] [skip] eval_oplora_final (already finished)
+[2026-10-31 15:46:28] [skip] train_fullft (already finished)
+[2026-10-31 15:46:28] [skip] eval_fullft_mid (already finished)
+[2026-10-31 15:46:28] [skip] eval_fullft_final (already finished)
+[2026-10-31 15:46:28] [skip] train_l2sp (already finished)
+[2026-10-31 15:46:28] [skip] eval_l2sp_final (already finished)
+[2026-10-31 15:46:28] diagnostics | attempt 1
+[2026-10-31 15:48:59] diagnostics | attempt 2
+[2026-10-31 15:49:32] diagnostics | attempt 3
+[2026-10-31 15:50:00] !!! diagnostics FAILED after retries - fix the cause, then just start the pipeline again
+[2026-11-01 16:25:08] === pipeline session 20261101-162503 started | GPU: Tesla T4
+[2026-11-01 16:25:08] [skip] data (already finished)
+[2026-11-01 16:25:08] [skip] tests (already finished)
+[2026-11-01 16:25:08] [skip] eval_baseline (already finished)
+[2026-11-01 16:25:08] [skip] train_lora4 (already finished)
+[2026-11-01 16:25:08] [skip] eval_lora4_final (already finished)
+[2026-11-01 16:25:08] [skip] train_lora16 (already finished)
+[2026-11-01 16:25:08] [skip] eval_lora16_final (already finished)
+[2026-11-01 16:25:08] [skip] train_oplora (already finished)
+[2026-11-01 16:25:08] [skip] merge_check (already finished)
+[2026-11-01 16:25:08] [skip] eval_oplora_final (already finished)
+[2026-11-01 16:25:08] [skip] train_fullft (already finished)
+[2026-11-01 16:25:08] [skip] eval_fullft_mid (already finished)
+[2026-11-01 16:25:08] [skip] eval_fullft_final (already finished)
+[2026-11-01 16:25:08] [skip] train_l2sp (already finished)
+[2026-11-01 16:25:08] [skip] eval_l2sp_final (already finished)
+[2026-11-01 16:25:08] diagnostics | attempt 1
+[2026-11-01 16:27:33] diagnostics | attempt 2
+[2026-11-01 16:27:59] diagnostics | attempt 3
+[2026-11-01 16:28:19] !!! diagnostics FAILED after retries - fix the cause, then just start the pipeline again
+[2026-11-01 17:19:25] === pipeline session 20261101-171921 started | GPU: Tesla T4
+[2026-11-01 17:19:26] [skip] data (already finished)
+[2026-11-01 17:19:26] [skip] tests (already finished)
+[2026-11-01 17:19:26] [skip] eval_baseline (already finished)
+[2026-11-01 17:19:26] [skip] train_lora4 (already finished)
+[2026-11-01 17:19:26] [skip] eval_lora4_final (already finished)
+[2026-11-01 17:19:26] [skip] train_lora16 (already finished)
+[2026-11-01 17:19:26] [skip] eval_lora16_final (already finished)
+[2026-11-01 17:19:26] [skip] train_oplora (already finished)
+[2026-11-01 17:19:26] [skip] merge_check (already finished)
+[2026-11-01 17:19:26] [skip] eval_oplora_final (already finished)
+[2026-11-01 17:19:26] [skip] train_fullft (already finished)
+[2026-11-01 17:19:26] [skip] eval_fullft_mid (already finished)
+[2026-11-01 17:19:26] [skip] eval_fullft_final (already finished)
+[2026-11-01 17:19:26] [skip] train_l2sp (already finished)
+[2026-11-01 17:19:26] [skip] eval_l2sp_final (already finished)
+[2026-11-01 17:19:26] diagnostics | attempt 1
+[2026-11-01 17:22:36] qualitative | attempt 1
+[2026-11-01 17:33:25] analyze | attempt 1
+[2026-11-01 17:33:41] ALL_DONE
