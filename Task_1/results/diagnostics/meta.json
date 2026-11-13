@@ -1,0 +1,18 @@
+{
+  "k": 128,
+  "layers": [
+    0,
+    13,
+    27
+  ],
+  "seed": 6304,
+  "variants": [
+    "fullft_mid",
+    "fullft_final",
+    "l2sp_final",
+    "lora4_final",
+    "lora16_final",
+    "oplora_final"
+  ],
+  "note": "OPLoRA dW uses projected factors; constraints checked via left/right_residual_rel."
+}
