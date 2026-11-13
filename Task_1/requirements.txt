@@ -1,0 +1,11 @@
+torch>=2.3
+transformers>=4.51
+datasets
+accelerate
+safetensors
+lm-eval>=0.4.9
+pyyaml
+numpy
+pandas
+matplotlib
+pytest
