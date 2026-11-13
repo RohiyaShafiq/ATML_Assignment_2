@@ -1,0 +1,6 @@
+Method,Trainable params,Train time (h),Peak GPU mem (GiB),Final model/adapter size (MiB),Skipped updates,Method-specific overhead,||θ-θ0||₂ final
+Full FT,"596,049,920",3.84,13.08,2273.8,0,θ0 storage 2274 MiB (cpu),10.641
+Full FT + L2-SP,"596,049,920",3.88,12.92,2273.8,0,θ0 storage 2274 MiB (gpu); θ0 transfer 0.0s,5.248
+LoRA-4,"2,523,136",2.60,5.80,9.7,0,,
+LoRA-16,"10,092,544",2.62,5.35,38.6,0,,
+OPLoRA-16,"10,092,544",3.52,5.87,77.2,0,bases 308 MiB; export 0.4s/39 MiB,
